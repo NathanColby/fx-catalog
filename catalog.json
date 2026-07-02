@@ -12,7 +12,19 @@
       "receipt" : "com.colbymakes.emul8",
       "url" : "https://github.com/NathanColby/emul8-releases/releases/download/v1.0.0/EMUL8.pkg",
       "version" : "1.0.0"
+    },
+    {
+      "build" : "1",
+      "id" : "lutoven",
+      "kind" : "pkg",
+      "min_host" : "Premiere Pro 2026 (Apple Silicon)",
+      "name" : "LutOven Premiere Plugins",
+      "notes_url" : "https://github.com/NathanColby/lutoven-releases/releases/tag/v1.1.0",
+      "published" : "2026-07-02",
+      "receipt" : "com.colbymakes.lutoven",
+      "url" : "https://github.com/NathanColby/lutoven-releases/releases/download/v1.1.0/LutOven.pkg",
+      "version" : "1.1.0"
     }
   ],
-  "updated" : "2026-07-02T23:47:14Z"
+  "updated" : "2026-07-02T23:49:41Z"
 }
