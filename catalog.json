@@ -1,4 +1,18 @@
 {
   "catalog_version" : 1,
-  "products" : [ ]
+  "products" : [
+    {
+      "build" : "1",
+      "id" : "emul8",
+      "kind" : "pkg",
+      "min_host" : "Premiere Pro 2026 (Apple Silicon)",
+      "name" : "EMUL8 (AFT) Film Effects",
+      "notes_url" : "https://github.com/NathanColby/emul8-releases/releases/tag/v1.0.0",
+      "published" : "2026-07-02",
+      "receipt" : "com.colbymakes.emul8",
+      "url" : "https://github.com/NathanColby/emul8-releases/releases/download/v1.0.0/EMUL8.pkg",
+      "version" : "1.0.0"
+    }
+  ],
+  "updated" : "2026-07-02T23:47:14Z"
 }
