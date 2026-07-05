@@ -26,6 +26,18 @@
       "version" : "1.0.0"
     },
     {
+      "build" : "13",
+      "id" : "gammgamm-plugin",
+      "kind" : "pkg",
+      "min_host" : "Premiere Pro or After Effects 2026 (Apple Silicon)",
+      "name" : "GammGamm Plugin",
+      "notes_url" : "https://github.com/NathanColby/gammgamm-plugin-releases/releases/tag/v0.1.4",
+      "published" : "2026-07-05",
+      "receipt" : "com.colbymakes.gammgamm.plugin",
+      "url" : "https://github.com/NathanColby/gammgamm-plugin-releases/releases/download/v0.1.4/GammGammPlugin.pkg",
+      "version" : "0.1.4"
+    },
+    {
       "build" : "1",
       "id" : "lutoven",
       "kind" : "pkg",
@@ -38,5 +50,5 @@
       "version" : "1.1.0"
     }
   ],
-  "updated" : "2026-07-03T00:24:29Z"
+  "updated" : "2026-07-05T06:42:50Z"
 }
