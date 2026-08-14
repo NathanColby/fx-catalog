@@ -96,7 +96,19 @@
       "receipt" : "com.colbymakes.lutoven",
       "url" : "https://github.com/NathanColby/lutoven-releases/releases/download/v1.1.0/LutOven.pkg",
       "version" : "1.1.0"
+    },
+    {
+      "build" : "1",
+      "id" : "palette",
+      "kind" : "ccx",
+      "min_host" : "Premiere Pro 26.3+ on macOS",
+      "name" : "Palette",
+      "notes_url" : "https://github.com/NathanColby/palette-releases/releases/tag/v1.17.0",
+      "published" : "2026-08-14",
+      "receipt" : "com.nathancolby.palette",
+      "url" : "https://github.com/NathanColby/palette-releases/releases/download/v1.17.0/Palette-v1.17.0.ccx",
+      "version" : "1.17.0"
     }
   ],
-  "updated" : "2026-08-13T21:42:28Z"
+  "updated" : "2026-08-14T04:55:27Z"
 }
