@@ -2,16 +2,16 @@
   "catalog_version" : 1,
   "products" : [
     {
-      "build" : "4",
+      "build" : "5",
       "id" : "autostack-utilities",
       "kind" : "ccx",
       "min_host" : "Premiere Pro 26.2+ on macOS",
       "name" : "AutoStack Utilities",
-      "notes_url" : "https://github.com/NathanColby/autostack-utilities-releases/releases/tag/v1.6.0",
-      "published" : "2026-08-13",
+      "notes_url" : "https://github.com/NathanColby/autostack-utilities-releases/releases/tag/v1.6.1",
+      "published" : "2026-08-14",
       "receipt" : "com.autostack.utilities.v01",
-      "url" : "https://github.com/NathanColby/autostack-utilities-releases/releases/download/v1.6.0/AutoStack-Utilities-v1.6.0.ccx",
-      "version" : "1.6.0"
+      "url" : "https://github.com/NathanColby/autostack-utilities-releases/releases/download/v1.6.1/AutoStack-Utilities-v1.6.1.ccx",
+      "version" : "1.6.1"
     },
     {
       "build" : "6",
@@ -110,5 +110,5 @@
       "version" : "1.17.0"
     }
   ],
-  "updated" : "2026-08-14T05:10:44Z"
+  "updated" : "2026-08-14T05:47:56Z"
 }
