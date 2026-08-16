@@ -2,18 +2,6 @@
   "catalog_version" : 1,
   "products" : [
     {
-      "build" : "5",
-      "id" : "conveyor",
-      "kind" : "ccx",
-      "min_host" : "Premiere Pro 26.2+ on macOS",
-      "name" : "Conveyor",
-      "notes_url" : "https://github.com/NathanColby/conveyor-releases/releases/tag/v1.6.1",
-      "published" : "2026-08-14",
-      "receipt" : "com.autostack.utilities.v01",
-      "url" : "https://github.com/NathanColby/conveyor-releases/releases/download/v1.6.1/AutoStack-Utilities-v1.6.1.ccx",
-      "version" : "1.6.1"
-    },
-    {
       "build" : "7",
       "id" : "cart",
       "kind" : "pkg",
@@ -36,6 +24,18 @@
       "receipt" : "com.nathancolby.Clerk",
       "url" : "https://github.com/NathanColby/clerk-releases/releases/download/v0.5.0/Clerk.pkg",
       "version" : "0.5.0"
+    },
+    {
+      "build" : "5",
+      "id" : "conveyor",
+      "kind" : "ccx",
+      "min_host" : "Premiere Pro 26.2+ on macOS",
+      "name" : "Conveyor",
+      "notes_url" : "https://github.com/NathanColby/conveyor-releases/releases/tag/v1.6.1",
+      "published" : "2026-08-14",
+      "receipt" : "com.autostack.utilities.v01",
+      "url" : "https://github.com/NathanColby/conveyor-releases/releases/download/v1.6.1/AutoStack-Utilities-v1.6.1.ccx",
+      "version" : "1.6.1"
     },
     {
       "build" : "7",
@@ -98,16 +98,16 @@
       "version" : "1.1.0"
     },
     {
-      "build" : "1",
+      "build" : "2",
       "id" : "palette",
       "kind" : "ccx",
       "min_host" : "Premiere Pro 26.3+ on macOS",
       "name" : "Palette",
-      "notes_url" : "https://github.com/NathanColby/palette-releases/releases/tag/v1.17.0",
-      "published" : "2026-08-14",
+      "notes_url" : "https://github.com/NathanColby/palette-releases/releases/tag/v1.17.1",
+      "published" : "2026-08-16",
       "receipt" : "com.nathancolby.palette",
-      "url" : "https://github.com/NathanColby/palette-releases/releases/download/v1.17.0/Palette-v1.17.0.ccx",
-      "version" : "1.17.0"
+      "url" : "https://github.com/NathanColby/palette-releases/releases/download/v1.17.1/Palette-v1.17.1.ccx",
+      "version" : "1.17.1"
     },
     {
       "build" : "3",
@@ -122,5 +122,5 @@
       "version" : "0.2.5"
     }
   ],
-  "updated" : "2026-08-16T00:19:26Z"
+  "updated" : "2026-08-16T03:12:53Z"
 }
