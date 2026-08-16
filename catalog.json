@@ -3,14 +3,14 @@
   "products" : [
     {
       "build" : "5",
-      "id" : "autostack-utilities",
+      "id" : "conveyor",
       "kind" : "ccx",
       "min_host" : "Premiere Pro 26.2+ on macOS",
-      "name" : "AutoStack Utilities",
-      "notes_url" : "https://github.com/NathanColby/autostack-utilities-releases/releases/tag/v1.6.1",
+      "name" : "Conveyor",
+      "notes_url" : "https://github.com/NathanColby/conveyor-releases/releases/tag/v1.6.1",
       "published" : "2026-08-14",
       "receipt" : "com.autostack.utilities.v01",
-      "url" : "https://github.com/NathanColby/autostack-utilities-releases/releases/download/v1.6.1/AutoStack-Utilities-v1.6.1.ccx",
+      "url" : "https://github.com/NathanColby/conveyor-releases/releases/download/v1.6.1/AutoStack-Utilities-v1.6.1.ccx",
       "version" : "1.6.1"
     },
     {
@@ -122,5 +122,5 @@
       "version" : "0.2.5"
     }
   ],
-  "updated" : "2026-08-15T00:31:04Z"
+  "updated" : "2026-08-16T00:19:26Z"
 }

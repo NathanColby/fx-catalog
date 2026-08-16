@@ -51,6 +51,14 @@ Per product:
 | `min_host` | Human-readable requirement line | Optional. |
 | `published` | Release date (UTC) | |
 
+## In-place product renames
+
+Conveyor is the one authorized exception to the permanent product-id rule. On
+2026-08-15, the existing `autostack-utilities` record moved atomically to
+`conveyor` while retaining receipt `com.autostack.utilities.v01`, version
+1.6.1, and its historical asset basename. Future releases update only
+`conveyor`; never recreate the predecessor as a second Cart product.
+
 Consumers must **ignore unknown fields** — the format may grow (e.g. an
 Ed25519 signature per entry) without breaking older Carts. Trust does not
 depend on this file alone: Cart independently verifies every downloaded
