@@ -110,16 +110,16 @@
       "version" : "1.1.0"
     },
     {
-      "build" : "3",
+      "build" : "4",
       "id" : "palette",
       "kind" : "ccx",
       "min_host" : "Premiere Pro 26.3+ on macOS",
       "name" : "Palette",
-      "notes_url" : "https://github.com/NathanColby/palette-releases/releases/tag/v1.18.0",
-      "published" : "2026-08-16",
+      "notes_url" : "https://github.com/NathanColby/palette-releases/releases/tag/v1.19.0",
+      "published" : "2026-08-17",
       "receipt" : "com.nathancolby.palette",
-      "url" : "https://github.com/NathanColby/palette-releases/releases/download/v1.18.0/Palette-v1.18.0.ccx",
-      "version" : "1.18.0"
+      "url" : "https://github.com/NathanColby/palette-releases/releases/download/v1.19.0/Palette-v1.19.0.ccx",
+      "version" : "1.19.0"
     },
     {
       "build" : "3",
@@ -134,5 +134,5 @@
       "version" : "0.2.5"
     }
   ],
-  "updated" : "2026-08-17T19:17:46Z"
+  "updated" : "2026-08-17T19:21:38Z"
 }
