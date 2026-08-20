@@ -62,16 +62,16 @@
       "version" : "0.2.7"
     },
     {
-      "build" : "1",
+      "build" : "2",
       "id" : "film-altar",
       "kind" : "pkg",
       "min_host" : "Premiere Pro 2026 (Apple Silicon)",
       "name" : "Film Altar",
-      "notes_url" : "https://github.com/NathanColby/film-altar-releases/releases/tag/v1.0.0",
-      "published" : "2026-08-16",
+      "notes_url" : "https://github.com/NathanColby/film-altar-releases/releases/tag/v1.0.1",
+      "published" : "2026-08-20",
       "receipt" : "com.colbymakes.filmaltar",
-      "url" : "https://github.com/NathanColby/film-altar-releases/releases/download/v1.0.0/Film-Altar.pkg",
-      "version" : "1.0.0"
+      "url" : "https://github.com/NathanColby/film-altar-releases/releases/download/v1.0.1/Film-Altar.pkg",
+      "version" : "1.0.1"
     },
     {
       "build" : "16",
@@ -134,5 +134,5 @@
       "version" : "0.4.0"
     }
   ],
-  "updated" : "2026-08-19T01:18:32Z"
+  "updated" : "2026-08-20T04:50:59Z"
 }
