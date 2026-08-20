@@ -156,7 +156,19 @@
       "receipt" : "com.puddle.timeline.v01",
       "url" : "https://github.com/NathanColby/puddle-releases/releases/download/v0.4.0/Puddle-v0.4.0.ccx",
       "version" : "0.4.0"
+    },
+    {
+      "build" : "1",
+      "id" : "rupture",
+      "kind" : "pkg",
+      "min_host" : "After Effects 2024 or later (Apple Silicon)",
+      "name" : "Rupture",
+      "notes_url" : "https://github.com/NathanColby/rupture-releases/releases/tag/v1.0.0",
+      "published" : "2026-08-20",
+      "receipt" : "com.nathancolby.rupture",
+      "url" : "https://github.com/NathanColby/rupture-releases/releases/download/v1.0.0/Rupture.pkg",
+      "version" : "1.0.0"
     }
   ],
-  "updated" : "2026-08-20T20:18:28Z"
+  "updated" : "2026-08-20T21:24:00Z"
 }
