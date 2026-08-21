@@ -26,16 +26,17 @@
       "version" : "0.3.0"
     },
     {
-      "build" : "11",
+      "build" : "12",
       "id" : "cart",
       "kind" : "pkg",
       "min_host" : "macOS 14 or later (Apple Silicon)",
       "name" : "Cart",
-      "notes_url" : "https://github.com/NathanColby/cart-releases/releases/tag/v1.0.10",
+      "notes_url" : "https://github.com/NathanColby/cart-releases/releases/tag/v1.0.11",
       "published" : "2026-08-21",
       "receipt" : "com.colbymakes.cart",
-      "url" : "https://github.com/NathanColby/cart-releases/releases/download/v1.0.10/Cart.pkg",
-      "version" : "1.0.10"
+      "sha256" : "0a89512a4b86ecce3b34dbbc8b805a917d7a1cfd84ffe250142ed3dda40964d7",
+      "url" : "https://github.com/NathanColby/cart-releases/releases/download/v1.0.11/Cart.pkg",
+      "version" : "1.0.11"
     },
     {
       "build" : "14",
@@ -170,5 +171,5 @@
       "version" : "1.0.0"
     }
   ],
-  "updated" : "2026-08-21T04:30:32Z"
+  "updated" : "2026-08-21T07:41:32Z"
 }
