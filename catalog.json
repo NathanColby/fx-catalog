@@ -123,16 +123,37 @@
       "version" : "0.2.0"
     },
     {
-      "build" : "1",
+      "build" : "2",
+      "components" : [
+        {
+          "id" : "effects",
+          "kind" : "pkg",
+          "name" : "Effects",
+          "receipt" : "com.colbymakes.lutoven",
+          "sha256" : "8f38be9f3a4f0ae1d1ae1d8d25f09e5c63b3e4f4e4d9eddd02a3eb548f8112c6",
+          "url" : "https://github.com/NathanColby/lutoven-releases/releases/download/v1.1.1/LutOven.pkg",
+          "version" : "1.1.1"
+        },
+        {
+          "id" : "panel",
+          "kind" : "ccx",
+          "name" : "Panel",
+          "receipt" : "com.lutoven.premiere.control-surface",
+          "sha256" : "015f9bda9f4b56bb3b12e7acdf31e4cdf794e622023bdefea80c5dc0ca10f101",
+          "url" : "https://github.com/NathanColby/lutoven-releases/releases/download/v1.1.1/LutOven-Panel-v1.1.1.ccx",
+          "version" : "1.1.1"
+        }
+      ],
       "id" : "lutoven",
       "kind" : "pkg",
-      "min_host" : "Premiere Pro 2026 (Apple Silicon)",
-      "name" : "LutOven Premiere Plugins",
-      "notes_url" : "https://github.com/NathanColby/lutoven-releases/releases/tag/v1.1.0",
-      "published" : "2026-07-02",
+      "min_host" : "Premiere Pro 26.0+ on macOS (Apple Silicon)",
+      "name" : "LutOven",
+      "notes_url" : "https://github.com/NathanColby/lutoven-releases/releases/tag/v1.1.1",
+      "published" : "2026-08-21",
       "receipt" : "com.colbymakes.lutoven",
-      "url" : "https://github.com/NathanColby/lutoven-releases/releases/download/v1.1.0/LutOven.pkg",
-      "version" : "1.1.0"
+      "sha256" : "8f38be9f3a4f0ae1d1ae1d8d25f09e5c63b3e4f4e4d9eddd02a3eb548f8112c6",
+      "url" : "https://github.com/NathanColby/lutoven-releases/releases/download/v1.1.1/LutOven.pkg",
+      "version" : "1.1.1"
     },
     {
       "build" : "5",
@@ -171,5 +192,5 @@
       "version" : "1.0.0"
     }
   ],
-  "updated" : "2026-08-21T07:41:32Z"
+  "updated" : "2026-08-21T08:13:30Z"
 }
