@@ -183,17 +183,18 @@
       "version" : "0.5.0"
     },
     {
-      "build" : "1",
+      "build" : "2",
       "id" : "rupture",
       "kind" : "pkg",
-      "min_host" : "After Effects 2024 or later (Apple Silicon)",
+      "min_host" : "Premiere Pro 2026 or later, or After Effects 2024 or later (Apple Silicon)",
       "name" : "Rupture",
-      "notes_url" : "https://github.com/NathanColby/rupture-releases/releases/tag/v1.0.0",
-      "published" : "2026-08-20",
+      "notes_url" : "https://github.com/NathanColby/rupture-releases/releases/tag/v1.0.1",
+      "published" : "2026-08-23",
       "receipt" : "com.nathancolby.rupture",
-      "url" : "https://github.com/NathanColby/rupture-releases/releases/download/v1.0.0/Rupture.pkg",
-      "version" : "1.0.0"
+      "sha256" : "c7d028a79870e675250b3d0517e559ad7578cf60a954d30de835c0a82f318ec3",
+      "url" : "https://github.com/NathanColby/rupture-releases/releases/download/v1.0.1/Rupture.pkg",
+      "version" : "1.0.1"
     }
   ],
-  "updated" : "2026-08-23T23:04:11Z"
+  "updated" : "2026-08-23T23:28:03Z"
 }
