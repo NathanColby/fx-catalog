@@ -98,16 +98,24 @@
       "version" : "1.0.1"
     },
     {
-      "build" : "16",
+      "build" : "17",
       "id" : "gammgamm-plugin",
       "kind" : "pkg",
       "min_host" : "Premiere Pro or After Effects 2026 (Apple Silicon)",
       "name" : "GammGamm Plugin",
-      "notes_url" : "https://github.com/NathanColby/gammgamm-plugin-releases/releases/tag/v0.1.7",
-      "published" : "2026-08-07",
+      "notes_url" : "https://github.com/NathanColby/gammgamm-plugin-releases/releases/tag/v0.1.8",
+      "published" : "2026-08-25",
       "receipt" : "com.colbymakes.gammgamm.plugin",
-      "url" : "https://github.com/NathanColby/gammgamm-plugin-releases/releases/download/v0.1.7/GammGammPlugin.pkg",
-      "version" : "0.1.7"
+      "sha256" : "657c5cfd981e0d3a4b959a2e576cee324ef2e64708e6b3fb9490d2e62eb192c7",
+      "uninstallers" : [
+        {
+          "scope" : "product_only",
+          "sha256" : "fcaa82403e5739c7096e21f2195ddd26379348c5775fee6177544c1887d5db20",
+          "url" : "https://github.com/NathanColby/gammgamm-plugin-releases/releases/download/v0.1.8/GammGammPlugin-Uninstall.pkg"
+        }
+      ],
+      "url" : "https://github.com/NathanColby/gammgamm-plugin-releases/releases/download/v0.1.8/GammGammPlugin.pkg",
+      "version" : "0.1.8"
     },
     {
       "build" : "17",
@@ -214,5 +222,5 @@
       "version" : "1.0.2"
     }
   ],
-  "updated" : "2026-08-25T02:26:06Z"
+  "updated" : "2026-08-25T02:30:51Z"
 }
