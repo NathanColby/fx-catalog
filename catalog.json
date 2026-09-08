@@ -94,24 +94,24 @@
       "version" : "0.2.8"
     },
     {
-      "build" : "3",
+      "build" : "4",
       "id" : "film-altar",
       "kind" : "pkg",
       "min_host" : "Premiere Pro or After Effects 2026 (Apple Silicon)",
       "name" : "Film Altar",
-      "notes_url" : "https://github.com/NathanColby/film-altar-releases/releases/tag/v1.0.2",
-      "published" : "2026-08-25",
+      "notes_url" : "https://github.com/NathanColby/film-altar-releases/releases/tag/v1.0.3",
+      "published" : "2026-09-08",
       "receipt" : "com.colbymakes.filmaltar",
-      "sha256" : "3afd6ac87f4661f283c813f76261c1a838650c3e9f53cc95a951569d783b8362",
+      "sha256" : "c7df0653e478256874f05ce16d3ca7c47a742a25c7a6b2c5f6ef98ef22d4622a",
       "uninstallers" : [
         {
           "scope" : "product_only",
-          "sha256" : "7f6b89b390863a91b3cc2f4eb2c2830a8f1e22f8d78b6e10bf7ab82547a034ca",
-          "url" : "https://github.com/NathanColby/film-altar-releases/releases/download/v1.0.2/Film-Altar-Uninstall.pkg"
+          "sha256" : "b9de3424670e1473d39f39d8f0580d7846b4f4ccb9b48bbddeb5352a2edc6267",
+          "url" : "https://github.com/NathanColby/film-altar-releases/releases/download/v1.0.3/Film-Altar-Uninstall.pkg"
         }
       ],
-      "url" : "https://github.com/NathanColby/film-altar-releases/releases/download/v1.0.2/Film-Altar.pkg",
-      "version" : "1.0.2"
+      "url" : "https://github.com/NathanColby/film-altar-releases/releases/download/v1.0.3/Film-Altar.pkg",
+      "version" : "1.0.3"
     },
     {
       "build" : "17",
@@ -253,5 +253,5 @@
       "version" : "1.0.2"
     }
   ],
-  "updated" : "2026-09-08T18:19:37Z"
+  "updated" : "2026-09-08T18:20:05Z"
 }
