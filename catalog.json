@@ -28,6 +28,46 @@
       "min_host" : "Premiere Pro 26.2+ on macOS",
       "name" : "Bagger",
       "notes_url" : "https://github.com/NathanColby/bagger-releases/releases/tag/v0.3.3",
+      "platform_contract" : 1,
+      "platforms" : [
+        {
+          "arch" : [
+            "x86_64"
+          ],
+          "build" : "5",
+          "components" : [
+            {
+              "id" : "primary",
+              "kind" : "ccx",
+              "name" : "Bagger",
+              "receipt" : "com.nathancolby.bagger.v01",
+              "sha256" : "58a8574ebf90e45163caa47bc4f16878b247cc1b16e30036b34edd37cb72e780",
+              "url" : "https://github.com/NathanColby/bagger-releases/releases/download/v0.3.3/Bagger-v0.3.3.ccx",
+              "version" : "0.3.3"
+            }
+          ],
+          "min_host" : "Premiere Pro 26.2.0+ on Windows 11 x64",
+          "notes_url" : "https://github.com/NathanColby/bagger-releases/releases/tag/v0.3.3",
+          "os" : "windows",
+          "provenance" : {
+            "admission_sha256" : "4f06b431af77de8fb047af9d8793e6bc22e4031b581eab4d0d80f54e4cad4fd5",
+            "kind" : "existing-published-pure-js-ccx"
+          },
+          "published" : "2026-09-10",
+          "requirements" : {
+            "hosts" : [
+              {
+                "id" : "premiere-pro",
+                "min_version" : "26.2.0"
+              }
+            ],
+            "min_os_version" : "10.0.26100"
+          },
+          "tag" : "v0.3.3",
+          "target" : "windows-x86_64",
+          "version" : "0.3.3"
+        }
+      ],
       "published" : "2026-09-08",
       "receipt" : "com.nathancolby.bagger.v01",
       "sha256" : "58a8574ebf90e45163caa47bc4f16878b247cc1b16e30036b34edd37cb72e780",
@@ -160,6 +200,46 @@
       "min_host" : "Premiere Pro 26.2+ on macOS 13+",
       "name" : "Jumper",
       "notes_url" : "https://github.com/NathanColby/jumper-releases/releases/tag/v0.2.3",
+      "platform_contract" : 1,
+      "platforms" : [
+        {
+          "arch" : [
+            "x86_64"
+          ],
+          "build" : "4",
+          "components" : [
+            {
+              "id" : "primary",
+              "kind" : "ccx",
+              "name" : "Jumper",
+              "receipt" : "com.nathancolby.jumper.v01",
+              "sha256" : "922c329bf4e0954727c94dfbde690ca0b8fadb6442e9493cf4d7fdbd84148338",
+              "url" : "https://github.com/NathanColby/jumper-releases/releases/download/v0.2.3/Jumper-v0.2.3.ccx",
+              "version" : "0.2.3"
+            }
+          ],
+          "min_host" : "Premiere Pro 26.2.0+ on Windows 11 x64",
+          "notes_url" : "https://github.com/NathanColby/jumper-releases/releases/tag/v0.2.3",
+          "os" : "windows",
+          "provenance" : {
+            "admission_sha256" : "085dec513f92ada6238bba143c5746c237f9ca92ee24d016db4e3011f06b7cef",
+            "kind" : "existing-published-pure-js-ccx"
+          },
+          "published" : "2026-09-10",
+          "requirements" : {
+            "hosts" : [
+              {
+                "id" : "premiere-pro",
+                "min_version" : "26.2.0"
+              }
+            ],
+            "min_os_version" : "10.0.26100"
+          },
+          "tag" : "v0.2.3",
+          "target" : "windows-x86_64",
+          "version" : "0.2.3"
+        }
+      ],
       "published" : "2026-09-08",
       "receipt" : "com.nathancolby.Jumper",
       "sha256" : "7e8e00b8011a8e4a36ecb74c086013a2ca8f2955b187b308396604368f09a987",
@@ -246,6 +326,46 @@
       "min_host" : "Premiere Pro 26.2+ on macOS",
       "name" : "Puddle",
       "notes_url" : "https://github.com/NathanColby/puddle-releases/releases/tag/v0.5.4",
+      "platform_contract" : 1,
+      "platforms" : [
+        {
+          "arch" : [
+            "x86_64"
+          ],
+          "build" : "8",
+          "components" : [
+            {
+              "id" : "primary",
+              "kind" : "ccx",
+              "name" : "Puddle",
+              "receipt" : "com.puddle.timeline.v01",
+              "sha256" : "b4ea27e1f8a117d490b812fb336a29ef45a0bff1464fd3ddce183fb2c430fb2d",
+              "url" : "https://github.com/NathanColby/puddle-releases/releases/download/v0.5.4/Puddle-v0.5.4.ccx",
+              "version" : "0.5.4"
+            }
+          ],
+          "min_host" : "Premiere Pro 26.2.0+ on Windows 11 x64",
+          "notes_url" : "https://github.com/NathanColby/puddle-releases/releases/tag/v0.5.4",
+          "os" : "windows",
+          "provenance" : {
+            "admission_sha256" : "2ebc5b515f2a24ba98656efe8f56b8ba774b9e1b88e1fb71f06afccbfff670a1",
+            "kind" : "existing-published-pure-js-ccx"
+          },
+          "published" : "2026-09-10",
+          "requirements" : {
+            "hosts" : [
+              {
+                "id" : "premiere-pro",
+                "min_version" : "26.2.0"
+              }
+            ],
+            "min_os_version" : "10.0.26100"
+          },
+          "tag" : "v0.5.4",
+          "target" : "windows-x86_64",
+          "version" : "0.5.4"
+        }
+      ],
       "published" : "2026-09-08",
       "receipt" : "com.puddle.timeline.v01",
       "sha256" : "b4ea27e1f8a117d490b812fb336a29ef45a0bff1464fd3ddce183fb2c430fb2d",
@@ -273,5 +393,5 @@
       "version" : "1.0.2"
     }
   ],
-  "updated" : "2026-09-08T23:32:00Z"
+  "updated" : "2026-09-10T06:32:26Z"
 }
