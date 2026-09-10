@@ -213,7 +213,54 @@
       "receipt": "com.autostack.utilities.v01",
       "sha256": "6b9d011215e8cd1b763850cfabf9b9960f00fd89363b8ffead4d87e8f77345c4",
       "url": "https://github.com/NathanColby/conveyor-releases/releases/download/v2.2.4/Conveyor-v2.2.4.ccx",
-      "version": "2.2.4"
+      "version": "2.2.4",
+      "platform_contract": 1,
+      "platforms": [
+        {
+          "target": "windows-x86_64",
+          "os": "windows",
+          "arch": [
+            "x86_64"
+          ],
+          "version": "2.2.5",
+          "build": "2",
+          "tag": "v2.2.5-windows-x86_64",
+          "notes_url": "https://github.com/NathanColby/conveyor-releases/releases/tag/v2.2.5-windows-x86_64",
+          "min_host": "Premiere Pro 26.2+ on Windows 11 24H2 x64",
+          "requirements": {
+            "min_os_version": "10.0.26100",
+            "hosts": [
+              {
+                "id": "premiere-pro",
+                "min_version": "26.2.0"
+              }
+            ]
+          },
+          "components": [
+            {
+              "id": "panel",
+              "name": "Conveyor",
+              "kind": "ccx-hybrid",
+              "receipt": "com.autostack.utilities.v01",
+              "version": "2.2.5",
+              "url": "https://github.com/NathanColby/conveyor-releases/releases/download/v2.2.5-windows-x86_64/Conveyor-2.2.5-windows-x86_64.ccx",
+              "sha256": "965fd75152abbcde42c2185dd6813c447cc67318f58bfb2917a676fc80dcb09a",
+              "native_members": [
+                {
+                  "path": "win/x64/conveyor-first-speech.uxpaddon",
+                  "size_bytes": 311568,
+                  "sha256": "d1cd65d9be0c5d2bca9a46101bf598a3ef373e681d80507ceb33f88d82e5298c"
+                }
+              ]
+            }
+          ],
+          "published": "2026-09-10",
+          "provenance": {
+            "kind": "supervised-signed-native-release",
+            "admission_sha256": "afa71c5144c71e08913f6f0694c068a238d6c547c1d68416307921f0911ca4f5"
+          }
+        }
+      ]
     },
     {
       "build": "8",
@@ -535,5 +582,5 @@
       "version": "1.0.2"
     }
   ],
-  "updated": "2026-09-10T15:24:31.613Z"
+  "updated": "2026-09-10T16:04:48.551Z"
 }
