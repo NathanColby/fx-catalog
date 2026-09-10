@@ -94,10 +94,10 @@
           "arch": [
             "x86_64"
           ],
-          "version": "0.1.0",
-          "build": "1",
-          "tag": "v0.1.0-windows-x86_64",
-          "notes_url": "https://github.com/NathanColby/cart-releases/releases/tag/v0.1.0-windows-x86_64",
+          "version": "0.1.1",
+          "build": "2",
+          "tag": "v0.1.1-windows-x86_64",
+          "notes_url": "https://github.com/NathanColby/cart-releases/releases/tag/v0.1.1-windows-x86_64",
           "published": "2026-09-10",
           "min_host": "Windows 11 24H2 or later (x64)",
           "requirements": {
@@ -109,17 +109,17 @@
               "id": "app",
               "name": "Cart",
               "kind": "msi",
-              "sha256": "b1d5f409f30385308de0d7732fd6a1741495e701b475f6f8406292defc970b89",
+              "sha256": "dde2e72f0ee7d92145d11e57d6a61ec2604024ec4b5a4202bdaa84e41db7c40a",
               "receipt": "{17A1F27D-11E2-4A84-A7B1-644B2BBDCCF3}",
-              "product_code": "{DBAE5D99-856C-4FF4-85C3-3BA9F96D14F4}",
+              "product_code": "{F45C30AB-41A2-4514-85A1-C2FE3A9598C1}",
               "scope": "machine",
-              "version": "0.1.0",
-              "url": "https://github.com/NathanColby/cart-releases/releases/download/v0.1.0-windows-x86_64/Cart-0.1.0-windows-x86_64.msi"
+              "version": "0.1.1",
+              "url": "https://github.com/NathanColby/cart-releases/releases/download/v0.1.1-windows-x86_64/Cart-0.1.1-windows-x86_64.msi"
             }
           ],
           "provenance": {
             "kind": "supervised-signed-native-release",
-            "admission_sha256": "c0b35a638ffd12ef8d2ffcd22df07aeec5cdb1403965052940ebcf093320136b"
+            "admission_sha256": "e91943646a53e0a8e03950fe14e0b1da03e83e1698317e6828f06cf2077cf4c2"
           },
           "uninstallers": [
             {
@@ -535,5 +535,5 @@
       "version": "1.0.2"
     }
   ],
-  "updated": "2026-09-10T09:46:32.847Z"
+  "updated": "2026-09-10T15:24:31.613Z"
 }
