@@ -1,397 +1,539 @@
 {
-  "catalog_version" : 1,
-  "products" : [
+  "catalog_version": 1,
+  "products": [
     {
-      "build" : "6",
-      "id" : "atrophy",
-      "kind" : "pkg",
-      "min_host" : "Premiere Pro 2026 or later, or After Effects 2024 or later (Apple Silicon)",
-      "name" : "Atrophy",
-      "notes_url" : "https://github.com/NathanColby/atrophy-releases/releases/tag/v1.2.5",
-      "published" : "2026-09-08",
-      "receipt" : "com.nathancolby.atrophy",
-      "sha256" : "cdac6449dca976ef067343439f23982e632122e4acd39159c9d1d2f09bab3546",
-      "uninstallers" : [
+      "build": "6",
+      "id": "atrophy",
+      "kind": "pkg",
+      "min_host": "Premiere Pro 2026 or later, or After Effects 2024 or later (Apple Silicon)",
+      "name": "Atrophy",
+      "notes_url": "https://github.com/NathanColby/atrophy-releases/releases/tag/v1.2.5",
+      "published": "2026-09-08",
+      "receipt": "com.nathancolby.atrophy",
+      "sha256": "cdac6449dca976ef067343439f23982e632122e4acd39159c9d1d2f09bab3546",
+      "uninstallers": [
         {
-          "scope" : "product_only",
-          "sha256" : "b1f58665ed3cdff3a0595f9dcd7428e39e1e9f3dd5beeaaff595927634c1ef27",
-          "url" : "https://github.com/NathanColby/atrophy-releases/releases/download/v1.2.5/Atrophy-Uninstall.pkg"
+          "scope": "product_only",
+          "sha256": "b1f58665ed3cdff3a0595f9dcd7428e39e1e9f3dd5beeaaff595927634c1ef27",
+          "url": "https://github.com/NathanColby/atrophy-releases/releases/download/v1.2.5/Atrophy-Uninstall.pkg"
         }
       ],
-      "url" : "https://github.com/NathanColby/atrophy-releases/releases/download/v1.2.5/Atrophy.pkg",
-      "version" : "1.2.5"
+      "url": "https://github.com/NathanColby/atrophy-releases/releases/download/v1.2.5/Atrophy.pkg",
+      "version": "1.2.5"
     },
     {
-      "build" : "5",
-      "id" : "bagger",
-      "kind" : "ccx",
-      "min_host" : "Premiere Pro 26.2+ on macOS",
-      "name" : "Bagger",
-      "notes_url" : "https://github.com/NathanColby/bagger-releases/releases/tag/v0.3.3",
-      "platform_contract" : 1,
-      "platforms" : [
+      "build": "5",
+      "id": "bagger",
+      "kind": "ccx",
+      "min_host": "Premiere Pro 26.2+ on macOS",
+      "name": "Bagger",
+      "notes_url": "https://github.com/NathanColby/bagger-releases/releases/tag/v0.3.3",
+      "platform_contract": 1,
+      "platforms": [
         {
-          "arch" : [
+          "arch": [
             "x86_64"
           ],
-          "build" : "5",
-          "components" : [
+          "build": "5",
+          "components": [
             {
-              "id" : "primary",
-              "kind" : "ccx",
-              "name" : "Bagger",
-              "receipt" : "com.nathancolby.bagger.v01",
-              "sha256" : "58a8574ebf90e45163caa47bc4f16878b247cc1b16e30036b34edd37cb72e780",
-              "url" : "https://github.com/NathanColby/bagger-releases/releases/download/v0.3.3/Bagger-v0.3.3.ccx",
-              "version" : "0.3.3"
+              "id": "primary",
+              "kind": "ccx",
+              "name": "Bagger",
+              "receipt": "com.nathancolby.bagger.v01",
+              "sha256": "58a8574ebf90e45163caa47bc4f16878b247cc1b16e30036b34edd37cb72e780",
+              "url": "https://github.com/NathanColby/bagger-releases/releases/download/v0.3.3/Bagger-v0.3.3.ccx",
+              "version": "0.3.3"
             }
           ],
-          "min_host" : "Premiere Pro 26.2.0+ on Windows 11 x64",
-          "notes_url" : "https://github.com/NathanColby/bagger-releases/releases/tag/v0.3.3",
-          "os" : "windows",
-          "provenance" : {
-            "admission_sha256" : "4f06b431af77de8fb047af9d8793e6bc22e4031b581eab4d0d80f54e4cad4fd5",
-            "kind" : "existing-published-pure-js-ccx"
+          "min_host": "Premiere Pro 26.2.0+ on Windows 11 x64",
+          "notes_url": "https://github.com/NathanColby/bagger-releases/releases/tag/v0.3.3",
+          "os": "windows",
+          "provenance": {
+            "admission_sha256": "4f06b431af77de8fb047af9d8793e6bc22e4031b581eab4d0d80f54e4cad4fd5",
+            "kind": "existing-published-pure-js-ccx"
           },
-          "published" : "2026-09-10",
-          "requirements" : {
-            "hosts" : [
+          "published": "2026-09-10",
+          "requirements": {
+            "hosts": [
               {
-                "id" : "premiere-pro",
-                "min_version" : "26.2.0"
+                "id": "premiere-pro",
+                "min_version": "26.2.0"
               }
             ],
-            "min_os_version" : "10.0.26100"
+            "min_os_version": "10.0.26100"
           },
-          "tag" : "v0.3.3",
-          "target" : "windows-x86_64",
-          "version" : "0.3.3"
+          "tag": "v0.3.3",
+          "target": "windows-x86_64",
+          "version": "0.3.3"
         }
       ],
-      "published" : "2026-09-08",
-      "receipt" : "com.nathancolby.bagger.v01",
-      "sha256" : "58a8574ebf90e45163caa47bc4f16878b247cc1b16e30036b34edd37cb72e780",
-      "url" : "https://github.com/NathanColby/bagger-releases/releases/download/v0.3.3/Bagger-v0.3.3.ccx",
-      "version" : "0.3.3"
+      "published": "2026-09-08",
+      "receipt": "com.nathancolby.bagger.v01",
+      "sha256": "58a8574ebf90e45163caa47bc4f16878b247cc1b16e30036b34edd37cb72e780",
+      "url": "https://github.com/NathanColby/bagger-releases/releases/download/v0.3.3/Bagger-v0.3.3.ccx",
+      "version": "0.3.3"
     },
     {
-      "build" : "14",
-      "id" : "cart",
-      "kind" : "pkg",
-      "min_host" : "macOS 14 or later (Apple Silicon)",
-      "name" : "Cart",
-      "notes_url" : "https://github.com/NathanColby/cart-releases/releases/tag/v1.0.13",
-      "published" : "2026-09-08",
-      "receipt" : "com.colbymakes.cart",
-      "sha256" : "54dc0ff1c961428d5ca2fec883a69d017c65185ba523596b7df5c6eec7548b5f",
-      "url" : "https://github.com/NathanColby/cart-releases/releases/download/v1.0.13/Cart.pkg",
-      "version" : "1.0.13"
-    },
-    {
-      "build" : "18",
-      "id" : "clerk",
-      "kind" : "pkg",
-      "min_host" : "Premiere Pro 26.2+ on macOS 14+",
-      "name" : "Clerk",
-      "notes_url" : "https://github.com/NathanColby/clerk-releases/releases/tag/v0.8.5",
-      "published" : "2026-09-08",
-      "receipt" : "com.nathancolby.Clerk",
-      "sha256" : "fa3b7ab1272bf1bcd5e925b325e04febb29edd6f179e8bd681d6fc98ef2b7fc4",
-      "url" : "https://github.com/NathanColby/clerk-releases/releases/download/v0.8.5/Clerk.pkg",
-      "version" : "0.8.5"
-    },
-    {
-      "build" : "13",
-      "id" : "conveyor",
-      "kind" : "ccx",
-      "min_host" : "Premiere Pro 26.2+ on macOS",
-      "name" : "Conveyor",
-      "notes_url" : "https://github.com/NathanColby/conveyor-releases/releases/tag/v2.2.4",
-      "published" : "2026-09-08",
-      "receipt" : "com.autostack.utilities.v01",
-      "sha256" : "6b9d011215e8cd1b763850cfabf9b9960f00fd89363b8ffead4d87e8f77345c4",
-      "url" : "https://github.com/NathanColby/conveyor-releases/releases/download/v2.2.4/Conveyor-v2.2.4.ccx",
-      "version" : "2.2.4"
-    },
-    {
-      "build" : "8",
-      "id" : "distance-bloom",
-      "kind" : "pkg",
-      "min_host" : "Premiere Pro 25.6+ on macOS 14+ (Apple Silicon or Intel)",
-      "name" : "Distance Bloom",
-      "notes_url" : "https://github.com/NathanColby/distance-bloom-releases/releases/tag/v0.2.8",
-      "published" : "2026-08-25",
-      "receipt" : "com.colbymakes.distancebloom",
-      "sha256" : "4c9d449ac654fe2de5b58886d3dde954f1d17f6248c7a3fb472748b3e7d0befb",
-      "uninstallers" : [
+      "build": "14",
+      "id": "cart",
+      "kind": "pkg",
+      "min_host": "macOS 14 or later (Apple Silicon)",
+      "name": "Cart",
+      "notes_url": "https://github.com/NathanColby/cart-releases/releases/tag/v1.0.13",
+      "published": "2026-09-08",
+      "receipt": "com.colbymakes.cart",
+      "sha256": "54dc0ff1c961428d5ca2fec883a69d017c65185ba523596b7df5c6eec7548b5f",
+      "url": "https://github.com/NathanColby/cart-releases/releases/download/v1.0.13/Cart.pkg",
+      "version": "1.0.13",
+      "platform_contract": 1,
+      "platforms": [
         {
-          "scope" : "product_only",
-          "sha256" : "1e73e07bd4419b51501828fb70bd58a5bbb39045abb9a55a1b1b466ae7f86ccb",
-          "url" : "https://github.com/NathanColby/distance-bloom-releases/releases/download/v0.2.8/DistanceBloom-Uninstall.pkg"
-        }
-      ],
-      "url" : "https://github.com/NathanColby/distance-bloom-releases/releases/download/v0.2.8/DistanceBloom.pkg",
-      "version" : "0.2.8"
-    },
-    {
-      "build" : "4",
-      "id" : "film-altar",
-      "kind" : "pkg",
-      "min_host" : "Premiere Pro or After Effects 2026 (Apple Silicon)",
-      "name" : "Film Altar",
-      "notes_url" : "https://github.com/NathanColby/film-altar-releases/releases/tag/v1.0.3",
-      "published" : "2026-09-08",
-      "receipt" : "com.colbymakes.filmaltar",
-      "sha256" : "c7df0653e478256874f05ce16d3ca7c47a742a25c7a6b2c5f6ef98ef22d4622a",
-      "uninstallers" : [
-        {
-          "scope" : "product_only",
-          "sha256" : "b9de3424670e1473d39f39d8f0580d7846b4f4ccb9b48bbddeb5352a2edc6267",
-          "url" : "https://github.com/NathanColby/film-altar-releases/releases/download/v1.0.3/Film-Altar-Uninstall.pkg"
-        }
-      ],
-      "url" : "https://github.com/NathanColby/film-altar-releases/releases/download/v1.0.3/Film-Altar.pkg",
-      "version" : "1.0.3"
-    },
-    {
-      "build" : "17",
-      "id" : "gammgamm-plugin",
-      "kind" : "pkg",
-      "min_host" : "Premiere Pro or After Effects 2026 (Apple Silicon)",
-      "name" : "GammGamm Plugin",
-      "notes_url" : "https://github.com/NathanColby/gammgamm-plugin-releases/releases/tag/v0.1.8",
-      "published" : "2026-08-25",
-      "receipt" : "com.colbymakes.gammgamm.plugin",
-      "sha256" : "657c5cfd981e0d3a4b959a2e576cee324ef2e64708e6b3fb9490d2e62eb192c7",
-      "uninstallers" : [
-        {
-          "scope" : "product_only",
-          "sha256" : "fcaa82403e5739c7096e21f2195ddd26379348c5775fee6177544c1887d5db20",
-          "url" : "https://github.com/NathanColby/gammgamm-plugin-releases/releases/download/v0.1.8/GammGammPlugin-Uninstall.pkg"
-        }
-      ],
-      "url" : "https://github.com/NathanColby/gammgamm-plugin-releases/releases/download/v0.1.8/GammGammPlugin.pkg",
-      "version" : "0.1.8"
-    },
-    {
-      "build" : "18",
-      "id" : "gate-hit",
-      "kind" : "pkg",
-      "min_host" : "Premiere Pro 2026 (Apple Silicon, GPU acceleration required)",
-      "name" : "Gate Hit",
-      "notes_url" : "https://github.com/NathanColby/gate-hit-releases/releases/tag/v1.1.2",
-      "published" : "2026-08-25",
-      "receipt" : "com.colbymakes.gatehit",
-      "sha256" : "075544fab993882384bdbf5ae10f3afce19de2b153f927fd7301c2545c1a98cd",
-      "uninstallers" : [
-        {
-          "scope" : "product_only",
-          "sha256" : "140a4bc41db8e5071ab983fcd910133ba17d064fac8316d5b51f7dbf4fda796c",
-          "url" : "https://github.com/NathanColby/gate-hit-releases/releases/download/v1.1.2/GateHit-Uninstall.pkg"
-        }
-      ],
-      "url" : "https://github.com/NathanColby/gate-hit-releases/releases/download/v1.1.2/GateHit.pkg",
-      "version" : "1.1.2"
-    },
-    {
-      "build" : "4",
-      "id" : "jumper",
-      "kind" : "pkg",
-      "min_host" : "Premiere Pro 26.2+ on macOS 13+",
-      "name" : "Jumper",
-      "notes_url" : "https://github.com/NathanColby/jumper-releases/releases/tag/v0.2.3",
-      "platform_contract" : 1,
-      "platforms" : [
-        {
-          "arch" : [
+          "target": "windows-x86_64",
+          "os": "windows",
+          "arch": [
             "x86_64"
           ],
-          "build" : "4",
-          "components" : [
+          "version": "0.1.0",
+          "build": "1",
+          "tag": "v0.1.0-windows-x86_64",
+          "notes_url": "https://github.com/NathanColby/cart-releases/releases/tag/v0.1.0-windows-x86_64",
+          "published": "2026-09-10",
+          "min_host": "Windows 11 24H2 or later (x64)",
+          "requirements": {
+            "min_os_version": "10.0.26100",
+            "hosts": []
+          },
+          "components": [
             {
-              "id" : "primary",
-              "kind" : "ccx",
-              "name" : "Jumper",
-              "receipt" : "com.nathancolby.jumper.v01",
-              "sha256" : "922c329bf4e0954727c94dfbde690ca0b8fadb6442e9493cf4d7fdbd84148338",
-              "url" : "https://github.com/NathanColby/jumper-releases/releases/download/v0.2.3/Jumper-v0.2.3.ccx",
-              "version" : "0.2.3"
+              "id": "app",
+              "name": "Cart",
+              "kind": "msi",
+              "sha256": "b1d5f409f30385308de0d7732fd6a1741495e701b475f6f8406292defc970b89",
+              "receipt": "{17A1F27D-11E2-4A84-A7B1-644B2BBDCCF3}",
+              "product_code": "{DBAE5D99-856C-4FF4-85C3-3BA9F96D14F4}",
+              "scope": "machine",
+              "version": "0.1.0",
+              "url": "https://github.com/NathanColby/cart-releases/releases/download/v0.1.0-windows-x86_64/Cart-0.1.0-windows-x86_64.msi"
             }
           ],
-          "min_host" : "Premiere Pro 26.2.0+ on Windows 11 x64",
-          "notes_url" : "https://github.com/NathanColby/jumper-releases/releases/tag/v0.2.3",
-          "os" : "windows",
-          "provenance" : {
-            "admission_sha256" : "085dec513f92ada6238bba143c5746c237f9ca92ee24d016db4e3011f06b7cef",
-            "kind" : "existing-published-pure-js-ccx"
+          "provenance": {
+            "kind": "supervised-signed-native-release",
+            "admission_sha256": "c0b35a638ffd12ef8d2ffcd22df07aeec5cdb1403965052940ebcf093320136b"
           },
-          "published" : "2026-09-10",
-          "requirements" : {
-            "hosts" : [
-              {
-                "id" : "premiere-pro",
-                "min_version" : "26.2.0"
-              }
-            ],
-            "min_os_version" : "10.0.26100"
-          },
-          "tag" : "v0.2.3",
-          "target" : "windows-x86_64",
-          "version" : "0.2.3"
+          "uninstallers": [
+            {
+              "scope": "product_only",
+              "kind": "msi_uninstall",
+              "component": "app"
+            }
+          ]
         }
-      ],
-      "published" : "2026-09-08",
-      "receipt" : "com.nathancolby.Jumper",
-      "sha256" : "7e8e00b8011a8e4a36ecb74c086013a2ca8f2955b187b308396604368f09a987",
-      "url" : "https://github.com/NathanColby/jumper-releases/releases/download/v0.2.3/Jumper.pkg",
-      "version" : "0.2.3"
+      ]
     },
     {
-      "build" : "4",
-      "components" : [
+      "build": "18",
+      "id": "clerk",
+      "kind": "pkg",
+      "min_host": "Premiere Pro 26.2+ on macOS 14+",
+      "name": "Clerk",
+      "notes_url": "https://github.com/NathanColby/clerk-releases/releases/tag/v0.8.5",
+      "published": "2026-09-08",
+      "receipt": "com.nathancolby.Clerk",
+      "sha256": "fa3b7ab1272bf1bcd5e925b325e04febb29edd6f179e8bd681d6fc98ef2b7fc4",
+      "url": "https://github.com/NathanColby/clerk-releases/releases/download/v0.8.5/Clerk.pkg",
+      "version": "0.8.5",
+      "platform_contract": 1,
+      "platforms": [
         {
-          "id" : "effects",
-          "kind" : "pkg",
-          "name" : "Effects",
-          "receipt" : "com.colbymakes.lutoven",
-          "sha256" : "bc70661eccf721a54b5e3c8a378c6e34678699b9e7d4d97bfd357b4315b3f3da",
-          "url" : "https://github.com/NathanColby/lutoven-releases/releases/download/v1.1.3/LutOven.pkg",
-          "version" : "1.1.3"
+          "target": "windows-x86_64",
+          "os": "windows",
+          "arch": [
+            "x86_64"
+          ],
+          "version": "0.8.13",
+          "build": "9",
+          "tag": "v0.8.13-windows-x86_64",
+          "notes_url": "https://github.com/NathanColby/clerk-releases/releases/tag/v0.8.13-windows-x86_64",
+          "published": "2026-09-10",
+          "min_host": "Premiere Pro 26.2+ on Windows 11 24H2 x64",
+          "requirements": {
+            "min_os_version": "10.0.26100",
+            "hosts": [
+              {
+                "id": "premiere-pro",
+                "min_version": "26.2.0"
+              }
+            ]
+          },
+          "components": [
+            {
+              "id": "app",
+              "name": "Clerk",
+              "kind": "msi",
+              "sha256": "ce642ec7691ac798c5c224ec809429bbb6c257d2a98e96beb6448e6dfef19f1d",
+              "receipt": "{E1C45827-A651-4FE3-A700-6CE12B992482}",
+              "product_code": "{410EEC85-B31C-4C7F-8D6F-B6F14CE4ECEA}",
+              "scope": "user",
+              "version": "0.8.13",
+              "url": "https://github.com/NathanColby/clerk-releases/releases/download/v0.8.13-windows-x86_64/Clerk-0.8.13-windows-x86_64.msi"
+            },
+            {
+              "id": "router",
+              "name": "Clerk Router",
+              "kind": "ccx",
+              "receipt": "com.nathancolby.clerk.router",
+              "sha256": "54f3e7717982c0bc1ac930ed53046a60c9ebbee2faeb6ff35c2d15cfb8981e4a",
+              "version": "0.8.13",
+              "url": "https://github.com/NathanColby/clerk-releases/releases/download/v0.8.13-windows-x86_64/Clerk-Router-0.8.13-windows-x86_64.ccx"
+            }
+          ],
+          "provenance": {
+            "kind": "supervised-signed-native-release",
+            "admission_sha256": "c0b35a638ffd12ef8d2ffcd22df07aeec5cdb1403965052940ebcf093320136b"
+          },
+          "uninstallers": [
+            {
+              "scope": "product_only",
+              "kind": "msi_uninstall",
+              "component": "app"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "build": "13",
+      "id": "conveyor",
+      "kind": "ccx",
+      "min_host": "Premiere Pro 26.2+ on macOS",
+      "name": "Conveyor",
+      "notes_url": "https://github.com/NathanColby/conveyor-releases/releases/tag/v2.2.4",
+      "published": "2026-09-08",
+      "receipt": "com.autostack.utilities.v01",
+      "sha256": "6b9d011215e8cd1b763850cfabf9b9960f00fd89363b8ffead4d87e8f77345c4",
+      "url": "https://github.com/NathanColby/conveyor-releases/releases/download/v2.2.4/Conveyor-v2.2.4.ccx",
+      "version": "2.2.4"
+    },
+    {
+      "build": "8",
+      "id": "distance-bloom",
+      "kind": "pkg",
+      "min_host": "Premiere Pro 25.6+ on macOS 14+ (Apple Silicon or Intel)",
+      "name": "Distance Bloom",
+      "notes_url": "https://github.com/NathanColby/distance-bloom-releases/releases/tag/v0.2.8",
+      "published": "2026-08-25",
+      "receipt": "com.colbymakes.distancebloom",
+      "sha256": "4c9d449ac654fe2de5b58886d3dde954f1d17f6248c7a3fb472748b3e7d0befb",
+      "uninstallers": [
+        {
+          "scope": "product_only",
+          "sha256": "1e73e07bd4419b51501828fb70bd58a5bbb39045abb9a55a1b1b466ae7f86ccb",
+          "url": "https://github.com/NathanColby/distance-bloom-releases/releases/download/v0.2.8/DistanceBloom-Uninstall.pkg"
+        }
+      ],
+      "url": "https://github.com/NathanColby/distance-bloom-releases/releases/download/v0.2.8/DistanceBloom.pkg",
+      "version": "0.2.8"
+    },
+    {
+      "build": "4",
+      "id": "film-altar",
+      "kind": "pkg",
+      "min_host": "Premiere Pro or After Effects 2026 (Apple Silicon)",
+      "name": "Film Altar",
+      "notes_url": "https://github.com/NathanColby/film-altar-releases/releases/tag/v1.0.3",
+      "published": "2026-09-08",
+      "receipt": "com.colbymakes.filmaltar",
+      "sha256": "c7df0653e478256874f05ce16d3ca7c47a742a25c7a6b2c5f6ef98ef22d4622a",
+      "uninstallers": [
+        {
+          "scope": "product_only",
+          "sha256": "b9de3424670e1473d39f39d8f0580d7846b4f4ccb9b48bbddeb5352a2edc6267",
+          "url": "https://github.com/NathanColby/film-altar-releases/releases/download/v1.0.3/Film-Altar-Uninstall.pkg"
+        }
+      ],
+      "url": "https://github.com/NathanColby/film-altar-releases/releases/download/v1.0.3/Film-Altar.pkg",
+      "version": "1.0.3"
+    },
+    {
+      "build": "17",
+      "id": "gammgamm-plugin",
+      "kind": "pkg",
+      "min_host": "Premiere Pro or After Effects 2026 (Apple Silicon)",
+      "name": "GammGamm Plugin",
+      "notes_url": "https://github.com/NathanColby/gammgamm-plugin-releases/releases/tag/v0.1.8",
+      "published": "2026-08-25",
+      "receipt": "com.colbymakes.gammgamm.plugin",
+      "sha256": "657c5cfd981e0d3a4b959a2e576cee324ef2e64708e6b3fb9490d2e62eb192c7",
+      "uninstallers": [
+        {
+          "scope": "product_only",
+          "sha256": "fcaa82403e5739c7096e21f2195ddd26379348c5775fee6177544c1887d5db20",
+          "url": "https://github.com/NathanColby/gammgamm-plugin-releases/releases/download/v0.1.8/GammGammPlugin-Uninstall.pkg"
+        }
+      ],
+      "url": "https://github.com/NathanColby/gammgamm-plugin-releases/releases/download/v0.1.8/GammGammPlugin.pkg",
+      "version": "0.1.8"
+    },
+    {
+      "build": "18",
+      "id": "gate-hit",
+      "kind": "pkg",
+      "min_host": "Premiere Pro 2026 (Apple Silicon, GPU acceleration required)",
+      "name": "Gate Hit",
+      "notes_url": "https://github.com/NathanColby/gate-hit-releases/releases/tag/v1.1.2",
+      "published": "2026-08-25",
+      "receipt": "com.colbymakes.gatehit",
+      "sha256": "075544fab993882384bdbf5ae10f3afce19de2b153f927fd7301c2545c1a98cd",
+      "uninstallers": [
+        {
+          "scope": "product_only",
+          "sha256": "140a4bc41db8e5071ab983fcd910133ba17d064fac8316d5b51f7dbf4fda796c",
+          "url": "https://github.com/NathanColby/gate-hit-releases/releases/download/v1.1.2/GateHit-Uninstall.pkg"
+        }
+      ],
+      "url": "https://github.com/NathanColby/gate-hit-releases/releases/download/v1.1.2/GateHit.pkg",
+      "version": "1.1.2"
+    },
+    {
+      "build": "4",
+      "id": "jumper",
+      "kind": "pkg",
+      "min_host": "Premiere Pro 26.2+ on macOS 13+",
+      "name": "Jumper",
+      "notes_url": "https://github.com/NathanColby/jumper-releases/releases/tag/v0.2.3",
+      "platform_contract": 1,
+      "platforms": [
+        {
+          "arch": [
+            "x86_64"
+          ],
+          "build": "4",
+          "components": [
+            {
+              "id": "primary",
+              "kind": "ccx",
+              "name": "Jumper",
+              "receipt": "com.nathancolby.jumper.v01",
+              "sha256": "922c329bf4e0954727c94dfbde690ca0b8fadb6442e9493cf4d7fdbd84148338",
+              "url": "https://github.com/NathanColby/jumper-releases/releases/download/v0.2.3/Jumper-v0.2.3.ccx",
+              "version": "0.2.3"
+            }
+          ],
+          "min_host": "Premiere Pro 26.2.0+ on Windows 11 x64",
+          "notes_url": "https://github.com/NathanColby/jumper-releases/releases/tag/v0.2.3",
+          "os": "windows",
+          "provenance": {
+            "admission_sha256": "085dec513f92ada6238bba143c5746c237f9ca92ee24d016db4e3011f06b7cef",
+            "kind": "existing-published-pure-js-ccx"
+          },
+          "published": "2026-09-10",
+          "requirements": {
+            "hosts": [
+              {
+                "id": "premiere-pro",
+                "min_version": "26.2.0"
+              }
+            ],
+            "min_os_version": "10.0.26100"
+          },
+          "tag": "v0.2.3",
+          "target": "windows-x86_64",
+          "version": "0.2.3"
+        }
+      ],
+      "published": "2026-09-08",
+      "receipt": "com.nathancolby.Jumper",
+      "sha256": "7e8e00b8011a8e4a36ecb74c086013a2ca8f2955b187b308396604368f09a987",
+      "url": "https://github.com/NathanColby/jumper-releases/releases/download/v0.2.3/Jumper.pkg",
+      "version": "0.2.3"
+    },
+    {
+      "build": "4",
+      "components": [
+        {
+          "id": "effects",
+          "kind": "pkg",
+          "name": "Effects",
+          "receipt": "com.colbymakes.lutoven",
+          "sha256": "bc70661eccf721a54b5e3c8a378c6e34678699b9e7d4d97bfd357b4315b3f3da",
+          "url": "https://github.com/NathanColby/lutoven-releases/releases/download/v1.1.3/LutOven.pkg",
+          "version": "1.1.3"
         },
         {
-          "id" : "panel",
-          "kind" : "ccx",
-          "name" : "Panel",
-          "receipt" : "com.lutoven.premiere.control-surface",
-          "sha256" : "1109ea020305fa42b5b759404cbb30f62b3ba25815aab0803d2479e8a5bd6604",
-          "url" : "https://github.com/NathanColby/lutoven-releases/releases/download/v1.1.3/LutOven-Panel-v1.1.3.ccx",
-          "version" : "1.1.3"
+          "id": "panel",
+          "kind": "ccx",
+          "name": "Panel",
+          "receipt": "com.lutoven.premiere.control-surface",
+          "sha256": "1109ea020305fa42b5b759404cbb30f62b3ba25815aab0803d2479e8a5bd6604",
+          "url": "https://github.com/NathanColby/lutoven-releases/releases/download/v1.1.3/LutOven-Panel-v1.1.3.ccx",
+          "version": "1.1.3"
         }
       ],
-      "id" : "lutoven",
-      "kind" : "pkg",
-      "min_host" : "Premiere Pro 26.0+ on macOS (Apple Silicon)",
-      "name" : "LutOven",
-      "notes_url" : "https://github.com/NathanColby/lutoven-releases/releases/tag/v1.1.3",
-      "published" : "2026-09-08",
-      "receipt" : "com.colbymakes.lutoven",
-      "sha256" : "bc70661eccf721a54b5e3c8a378c6e34678699b9e7d4d97bfd357b4315b3f3da",
-      "uninstallers" : [
+      "id": "lutoven",
+      "kind": "pkg",
+      "min_host": "Premiere Pro 26.0+ on macOS (Apple Silicon)",
+      "name": "LutOven",
+      "notes_url": "https://github.com/NathanColby/lutoven-releases/releases/tag/v1.1.3",
+      "published": "2026-09-08",
+      "receipt": "com.colbymakes.lutoven",
+      "sha256": "bc70661eccf721a54b5e3c8a378c6e34678699b9e7d4d97bfd357b4315b3f3da",
+      "uninstallers": [
         {
-          "scope" : "product_only",
-          "sha256" : "82ad148754ae0260555fa0304420bc088d70c0ad1a87756889a2e0e001cb68de",
-          "url" : "https://github.com/NathanColby/lutoven-releases/releases/download/v1.1.3/LutOven-Uninstall.pkg"
+          "scope": "product_only",
+          "sha256": "82ad148754ae0260555fa0304420bc088d70c0ad1a87756889a2e0e001cb68de",
+          "url": "https://github.com/NathanColby/lutoven-releases/releases/download/v1.1.3/LutOven-Uninstall.pkg"
         }
       ],
-      "url" : "https://github.com/NathanColby/lutoven-releases/releases/download/v1.1.3/LutOven.pkg",
-      "version" : "1.1.3"
+      "url": "https://github.com/NathanColby/lutoven-releases/releases/download/v1.1.3/LutOven.pkg",
+      "version": "1.1.3"
     },
     {
-      "build" : "10",
-      "id" : "obfuscate",
-      "kind" : "pkg",
-      "min_host" : "Premiere Pro 2026 or later, or After Effects 2024 or later (Apple Silicon)",
-      "name" : "Obfuscate",
-      "notes_url" : "https://github.com/NathanColby/obfuscate-releases/releases/tag/v0.1.0",
-      "published" : "2026-09-08",
-      "receipt" : "com.nathancolby.obfuscate",
-      "sha256" : "c0696098dc6b37ad77e28d5fdf20a453d7733104f499995daede7e3f259eb0a3",
-      "uninstallers" : [
+      "build": "10",
+      "id": "obfuscate",
+      "kind": "pkg",
+      "min_host": "Premiere Pro 2026 or later, or After Effects 2024 or later (Apple Silicon)",
+      "name": "Obfuscate",
+      "notes_url": "https://github.com/NathanColby/obfuscate-releases/releases/tag/v0.1.0",
+      "published": "2026-09-08",
+      "receipt": "com.nathancolby.obfuscate",
+      "sha256": "c0696098dc6b37ad77e28d5fdf20a453d7733104f499995daede7e3f259eb0a3",
+      "uninstallers": [
         {
-          "scope" : "product_only",
-          "sha256" : "8e5da801f2c395937889a0a031135749969455f4ec59d6a79350a257228537e5",
-          "url" : "https://github.com/NathanColby/obfuscate-releases/releases/download/v0.1.0/Obfuscate-Uninstall.pkg"
+          "scope": "product_only",
+          "sha256": "8e5da801f2c395937889a0a031135749969455f4ec59d6a79350a257228537e5",
+          "url": "https://github.com/NathanColby/obfuscate-releases/releases/download/v0.1.0/Obfuscate-Uninstall.pkg"
         }
       ],
-      "url" : "https://github.com/NathanColby/obfuscate-releases/releases/download/v0.1.0/Obfuscate.pkg",
-      "version" : "0.1.0"
+      "url": "https://github.com/NathanColby/obfuscate-releases/releases/download/v0.1.0/Obfuscate.pkg",
+      "version": "0.1.0"
     },
     {
-      "build" : "7",
-      "id" : "palette",
-      "kind" : "ccx",
-      "min_host" : "Premiere Pro 26.3+ on macOS",
-      "name" : "Palette",
-      "notes_url" : "https://github.com/NathanColby/palette-releases/releases/tag/v1.20.3",
-      "published" : "2026-09-08",
-      "receipt" : "com.nathancolby.palette",
-      "sha256" : "66263d8defd25e0dee5c332f58800e5bf71729122ff963502a52c2dee3ba31be",
-      "url" : "https://github.com/NathanColby/palette-releases/releases/download/v1.20.3/Palette-v1.20.3.ccx",
-      "version" : "1.20.3"
-    },
-    {
-      "build" : "8",
-      "id" : "puddle",
-      "kind" : "ccx",
-      "min_host" : "Premiere Pro 26.2+ on macOS",
-      "name" : "Puddle",
-      "notes_url" : "https://github.com/NathanColby/puddle-releases/releases/tag/v0.5.4",
-      "platform_contract" : 1,
-      "platforms" : [
+      "build": "7",
+      "id": "palette",
+      "kind": "ccx",
+      "min_host": "Premiere Pro 26.3+ on macOS",
+      "name": "Palette",
+      "notes_url": "https://github.com/NathanColby/palette-releases/releases/tag/v1.20.3",
+      "published": "2026-09-08",
+      "receipt": "com.nathancolby.palette",
+      "sha256": "66263d8defd25e0dee5c332f58800e5bf71729122ff963502a52c2dee3ba31be",
+      "url": "https://github.com/NathanColby/palette-releases/releases/download/v1.20.3/Palette-v1.20.3.ccx",
+      "version": "1.20.3",
+      "platform_contract": 1,
+      "platforms": [
         {
-          "arch" : [
+          "target": "windows-x86_64",
+          "os": "windows",
+          "arch": [
             "x86_64"
           ],
-          "build" : "8",
-          "components" : [
+          "version": "1.20.5",
+          "build": "4",
+          "tag": "v1.20.5-windows-x86_64",
+          "notes_url": "https://github.com/NathanColby/palette-releases/releases/tag/v1.20.5-windows-x86_64",
+          "published": "2026-09-10",
+          "min_host": "Premiere Pro 26.3+ on Windows 11 24H2 x64",
+          "requirements": {
+            "min_os_version": "10.0.26100",
+            "hosts": [
+              {
+                "id": "premiere-pro",
+                "min_version": "26.3.0"
+              }
+            ]
+          },
+          "components": [
             {
-              "id" : "primary",
-              "kind" : "ccx",
-              "name" : "Puddle",
-              "receipt" : "com.puddle.timeline.v01",
-              "sha256" : "b4ea27e1f8a117d490b812fb336a29ef45a0bff1464fd3ddce183fb2c430fb2d",
-              "url" : "https://github.com/NathanColby/puddle-releases/releases/download/v0.5.4/Puddle-v0.5.4.ccx",
-              "version" : "0.5.4"
+              "id": "panel",
+              "name": "Palette",
+              "kind": "ccx",
+              "receipt": "com.nathancolby.palette",
+              "sha256": "12045e2bd8783d21548d9f8304b572be4cc5583f590be5e2bca6ba54f0342bf1",
+              "version": "1.20.5",
+              "url": "https://github.com/NathanColby/palette-releases/releases/download/v1.20.5-windows-x86_64/Palette-v1.20.5-windows-x86_64.ccx"
             }
           ],
-          "min_host" : "Premiere Pro 26.2.0+ on Windows 11 x64",
-          "notes_url" : "https://github.com/NathanColby/puddle-releases/releases/tag/v0.5.4",
-          "os" : "windows",
-          "provenance" : {
-            "admission_sha256" : "2ebc5b515f2a24ba98656efe8f56b8ba774b9e1b88e1fb71f06afccbfff670a1",
-            "kind" : "existing-published-pure-js-ccx"
-          },
-          "published" : "2026-09-10",
-          "requirements" : {
-            "hosts" : [
-              {
-                "id" : "premiere-pro",
-                "min_version" : "26.2.0"
-              }
-            ],
-            "min_os_version" : "10.0.26100"
-          },
-          "tag" : "v0.5.4",
-          "target" : "windows-x86_64",
-          "version" : "0.5.4"
+          "provenance": {
+            "kind": "supervised-owner-accepted-pure-js-ccx",
+            "admission_sha256": "f2e46107bd401c0ed52663c7645ea9ae16fc7dee67f68f2046fe85c83f74d226"
+          }
         }
-      ],
-      "published" : "2026-09-08",
-      "receipt" : "com.puddle.timeline.v01",
-      "sha256" : "b4ea27e1f8a117d490b812fb336a29ef45a0bff1464fd3ddce183fb2c430fb2d",
-      "url" : "https://github.com/NathanColby/puddle-releases/releases/download/v0.5.4/Puddle-v0.5.4.ccx",
-      "version" : "0.5.4"
+      ]
     },
     {
-      "build" : "3",
-      "id" : "rupture",
-      "kind" : "pkg",
-      "min_host" : "Premiere Pro 2026 or later, or After Effects 2024 or later (Apple Silicon)",
-      "name" : "Rupture",
-      "notes_url" : "https://github.com/NathanColby/rupture-releases/releases/tag/v1.0.2",
-      "published" : "2026-08-25",
-      "receipt" : "com.nathancolby.rupture",
-      "sha256" : "f97cab2184e84f9e3af8bd4a4374528bbcf9a2f2525d7c1879626614a0ec77ce",
-      "uninstallers" : [
+      "build": "8",
+      "id": "puddle",
+      "kind": "ccx",
+      "min_host": "Premiere Pro 26.2+ on macOS",
+      "name": "Puddle",
+      "notes_url": "https://github.com/NathanColby/puddle-releases/releases/tag/v0.5.4",
+      "platform_contract": 1,
+      "platforms": [
         {
-          "scope" : "product_only",
-          "sha256" : "42f2a92286ecc316d17272cdde4f0dfe155d44a29bdf4231a7203e4a140c0e7e",
-          "url" : "https://github.com/NathanColby/rupture-releases/releases/download/v1.0.2/Rupture-Uninstall.pkg"
+          "arch": [
+            "x86_64"
+          ],
+          "build": "8",
+          "components": [
+            {
+              "id": "primary",
+              "kind": "ccx",
+              "name": "Puddle",
+              "receipt": "com.puddle.timeline.v01",
+              "sha256": "b4ea27e1f8a117d490b812fb336a29ef45a0bff1464fd3ddce183fb2c430fb2d",
+              "url": "https://github.com/NathanColby/puddle-releases/releases/download/v0.5.4/Puddle-v0.5.4.ccx",
+              "version": "0.5.4"
+            }
+          ],
+          "min_host": "Premiere Pro 26.2.0+ on Windows 11 x64",
+          "notes_url": "https://github.com/NathanColby/puddle-releases/releases/tag/v0.5.4",
+          "os": "windows",
+          "provenance": {
+            "admission_sha256": "2ebc5b515f2a24ba98656efe8f56b8ba774b9e1b88e1fb71f06afccbfff670a1",
+            "kind": "existing-published-pure-js-ccx"
+          },
+          "published": "2026-09-10",
+          "requirements": {
+            "hosts": [
+              {
+                "id": "premiere-pro",
+                "min_version": "26.2.0"
+              }
+            ],
+            "min_os_version": "10.0.26100"
+          },
+          "tag": "v0.5.4",
+          "target": "windows-x86_64",
+          "version": "0.5.4"
         }
       ],
-      "url" : "https://github.com/NathanColby/rupture-releases/releases/download/v1.0.2/Rupture.pkg",
-      "version" : "1.0.2"
+      "published": "2026-09-08",
+      "receipt": "com.puddle.timeline.v01",
+      "sha256": "b4ea27e1f8a117d490b812fb336a29ef45a0bff1464fd3ddce183fb2c430fb2d",
+      "url": "https://github.com/NathanColby/puddle-releases/releases/download/v0.5.4/Puddle-v0.5.4.ccx",
+      "version": "0.5.4"
+    },
+    {
+      "build": "3",
+      "id": "rupture",
+      "kind": "pkg",
+      "min_host": "Premiere Pro 2026 or later, or After Effects 2024 or later (Apple Silicon)",
+      "name": "Rupture",
+      "notes_url": "https://github.com/NathanColby/rupture-releases/releases/tag/v1.0.2",
+      "published": "2026-08-25",
+      "receipt": "com.nathancolby.rupture",
+      "sha256": "f97cab2184e84f9e3af8bd4a4374528bbcf9a2f2525d7c1879626614a0ec77ce",
+      "uninstallers": [
+        {
+          "scope": "product_only",
+          "sha256": "42f2a92286ecc316d17272cdde4f0dfe155d44a29bdf4231a7203e4a140c0e7e",
+          "url": "https://github.com/NathanColby/rupture-releases/releases/download/v1.0.2/Rupture-Uninstall.pkg"
+        }
+      ],
+      "url": "https://github.com/NathanColby/rupture-releases/releases/download/v1.0.2/Rupture.pkg",
+      "version": "1.0.2"
     }
   ],
-  "updated" : "2026-09-10T06:32:26Z"
+  "updated": "2026-09-10T09:46:32.847Z"
 }
