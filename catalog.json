@@ -373,7 +373,56 @@
         }
       ],
       "url": "https://github.com/NathanColby/gammgamm-plugin-releases/releases/download/v0.1.8/GammGammPlugin.pkg",
-      "version": "0.1.8"
+      "version": "0.1.8",
+      "platform_contract": 1,
+      "platforms": [
+        {
+          "target": "windows-x86_64",
+          "os": "windows",
+          "arch": [
+            "x86_64"
+          ],
+          "version": "0.1.9",
+          "build": "1",
+          "tag": "v0.1.9-windows-x86_64",
+          "published": "2026-09-10",
+          "notes_url": "https://github.com/NathanColby/gammgamm-plugin-releases/releases/tag/v0.1.9-windows-x86_64",
+          "min_host": "Premiere Pro or After Effects 2026. Optional NVIDIA CUDA acceleration in Premiere.",
+          "requirements": {
+            "min_os_version": "10.0.26100",
+            "hosts": [
+              {
+                "id": "premiere-pro",
+                "min_version": "26.0"
+              },
+              {
+                "id": "after-effects",
+                "min_version": "26.0"
+              }
+            ]
+          },
+          "components": [
+            {
+              "id": "effects",
+              "name": "GammGamm Plugin",
+              "kind": "msi",
+              "version": "0.1.9",
+              "scope": "machine",
+              "receipt": "{47FE5223-C106-43FB-A510-3A9652CE2E44}",
+              "product_code": "{9B873C77-42AB-4B83-B234-D7DF45F563AA}",
+              "url": "https://github.com/NathanColby/gammgamm-plugin-releases/releases/download/v0.1.9-windows-x86_64/GammGammPlugin-0.1.9-windows-x86_64.msi",
+              "sha256": "31f852eb05fb4e38c1c4d73a05545c78c6cb9637535ab1eaff3c28e8bf6d9461"
+            }
+          ],
+          "uninstallers": [
+            {
+              "scope": "product_only",
+              "kind": "msi_uninstall",
+              "component": "effects"
+            }
+          ]
+        }
+      ]
     },
     {
       "build": "18",
@@ -635,5 +684,5 @@
       "version": "1.0.2"
     }
   ],
-  "updated": "2026-09-10T17:58:50.702Z"
+  "updated": "2026-09-10T19:59:14.355Z"
 }
