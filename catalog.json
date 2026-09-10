@@ -19,7 +19,56 @@
         }
       ],
       "url": "https://github.com/NathanColby/atrophy-releases/releases/download/v1.2.5/Atrophy.pkg",
-      "version": "1.2.5"
+      "version": "1.2.5",
+      "platform_contract": 1,
+      "platforms": [
+        {
+          "arch": [
+            "x86_64"
+          ],
+          "build": "1",
+          "components": [
+            {
+              "id": "effects",
+              "kind": "msi",
+              "name": "Atrophy",
+              "product_code": "{AE3CFE0F-F07C-4166-BED0-596F720FB366}",
+              "receipt": "{731A7686-C731-440E-B8C9-8A2FC8C8256C}",
+              "scope": "machine",
+              "sha256": "b28ab3597c8b2f54ac74219f38946267e787cb2f4cfd092e6a94a912b843a083",
+              "url": "https://github.com/NathanColby/atrophy-releases/releases/download/v1.2.5-windows-x86_64/Atrophy-1.2.5-windows-x86_64.msi",
+              "version": "1.2.5"
+            }
+          ],
+          "min_host": "Premiere Pro or After Effects 2026. NVIDIA CUDA acceleration qualified in Premiere.",
+          "notes_url": "https://github.com/NathanColby/atrophy-releases/releases/tag/v1.2.5-windows-x86_64",
+          "os": "windows",
+          "published": "2026-09-10",
+          "requirements": {
+            "hosts": [
+              {
+                "id": "premiere-pro",
+                "min_version": "26.0"
+              },
+              {
+                "id": "after-effects",
+                "min_version": "26.0"
+              }
+            ],
+            "min_os_version": "10.0.26100"
+          },
+          "tag": "v1.2.5-windows-x86_64",
+          "target": "windows-x86_64",
+          "uninstallers": [
+            {
+              "component": "effects",
+              "kind": "msi_uninstall",
+              "scope": "product_only"
+            }
+          ],
+          "version": "1.2.5"
+        }
+      ]
     },
     {
       "build": "5",
@@ -555,7 +604,56 @@
         }
       ],
       "url": "https://github.com/NathanColby/obfuscate-releases/releases/download/v0.1.0/Obfuscate.pkg",
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "platform_contract": 1,
+      "platforms": [
+        {
+          "arch": [
+            "x86_64"
+          ],
+          "build": "1",
+          "components": [
+            {
+              "id": "effects",
+              "kind": "msi",
+              "name": "Obfuscate",
+              "product_code": "{3F99E31B-295C-464F-BE9F-AC230078A277}",
+              "receipt": "{7B9B61EF-05B9-49D7-82E8-3FDE2C922A0A}",
+              "scope": "machine",
+              "sha256": "09b20c1f4cb12eadd9593972adc7498cf0c1e2bba6f01c0414344ff9eed19f37",
+              "url": "https://github.com/NathanColby/obfuscate-releases/releases/download/v0.1.0-windows-x86_64/Obfuscate-0.1.0-windows-x86_64.msi",
+              "version": "0.1.0"
+            }
+          ],
+          "min_host": "Premiere Pro or After Effects 2026. NVIDIA CUDA acceleration qualified in Premiere.",
+          "notes_url": "https://github.com/NathanColby/obfuscate-releases/releases/tag/v0.1.0-windows-x86_64",
+          "os": "windows",
+          "published": "2026-09-10",
+          "requirements": {
+            "hosts": [
+              {
+                "id": "premiere-pro",
+                "min_version": "26.0"
+              },
+              {
+                "id": "after-effects",
+                "min_version": "26.0"
+              }
+            ],
+            "min_os_version": "10.0.26100"
+          },
+          "tag": "v0.1.0-windows-x86_64",
+          "target": "windows-x86_64",
+          "uninstallers": [
+            {
+              "component": "effects",
+              "kind": "msi_uninstall",
+              "scope": "product_only"
+            }
+          ],
+          "version": "0.1.0"
+        }
+      ]
     },
     {
       "build": "7",
@@ -681,8 +779,57 @@
         }
       ],
       "url": "https://github.com/NathanColby/rupture-releases/releases/download/v1.0.2/Rupture.pkg",
-      "version": "1.0.2"
+      "version": "1.0.2",
+      "platform_contract": 1,
+      "platforms": [
+        {
+          "arch": [
+            "x86_64"
+          ],
+          "build": "1",
+          "components": [
+            {
+              "id": "effects",
+              "kind": "msi",
+              "name": "Rupture",
+              "product_code": "{EA8A3471-4438-4CC3-B712-C909262DA731}",
+              "receipt": "{25BAB5B3-EC72-4DD9-A2BB-F8AB90C2B655}",
+              "scope": "machine",
+              "sha256": "18eefe19eeb1a4cb861af49cfbc3bf7963922e210f1bef04415edfb3757b3e66",
+              "url": "https://github.com/NathanColby/rupture-releases/releases/download/v1.0.2-windows-x86_64/Rupture-1.0.2-windows-x86_64.msi",
+              "version": "1.0.2"
+            }
+          ],
+          "min_host": "Premiere Pro or After Effects 2026. NVIDIA CUDA acceleration qualified in Premiere.",
+          "notes_url": "https://github.com/NathanColby/rupture-releases/releases/tag/v1.0.2-windows-x86_64",
+          "os": "windows",
+          "published": "2026-09-10",
+          "requirements": {
+            "hosts": [
+              {
+                "id": "premiere-pro",
+                "min_version": "26.0"
+              },
+              {
+                "id": "after-effects",
+                "min_version": "26.0"
+              }
+            ],
+            "min_os_version": "10.0.26100"
+          },
+          "tag": "v1.0.2-windows-x86_64",
+          "target": "windows-x86_64",
+          "uninstallers": [
+            {
+              "component": "effects",
+              "kind": "msi_uninstall",
+              "scope": "product_only"
+            }
+          ],
+          "version": "1.0.2"
+        }
+      ]
     }
   ],
-  "updated": "2026-09-10T19:59:14.355Z"
+  "updated": "2026-09-10T22:01:08.938Z"
 }
