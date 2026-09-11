@@ -584,7 +584,65 @@
         }
       ],
       "url": "https://github.com/NathanColby/lutoven-releases/releases/download/v1.1.3/LutOven.pkg",
-      "version": "1.1.3"
+      "version": "1.1.3",
+      "platform_contract": 1,
+      "platforms": [
+        {
+          "target": "windows-x86_64",
+          "os": "windows",
+          "arch": [
+            "x86_64"
+          ],
+          "version": "1.1.3",
+          "build": "1",
+          "tag": "v1.1.3-windows-x86_64",
+          "notes_url": "https://github.com/NathanColby/lutoven-releases/releases/tag/v1.1.3-windows-x86_64",
+          "published": "2026-09-11",
+          "min_host": "Premiere Pro 26.3+ on Windows 11 x64; NVIDIA CUDA (compute 7.5+)",
+          "requirements": {
+            "min_os_version": "10.0.26100",
+            "hosts": [
+              {
+                "id": "premiere-pro",
+                "min_version": "26.3.0"
+              }
+            ]
+          },
+          "components": [
+            {
+              "id": "effects",
+              "name": "Effects",
+              "kind": "msi",
+              "receipt": "{23DF29C0-BD73-4D39-A4CB-1CFD97653D1E}",
+              "product_code": "{4039B073-C178-4A6E-8039-637AECD12D59}",
+              "scope": "machine",
+              "version": "1.1.3",
+              "url": "https://github.com/NathanColby/lutoven-releases/releases/download/v1.1.3-windows-x86_64/LutOven-1.1.3-windows-x86_64.msi",
+              "sha256": "28b06753645e44f00c14ae455f6343303fe8405e9ac2995738fd72439d18e533"
+            },
+            {
+              "id": "panel",
+              "name": "Panel",
+              "kind": "ccx",
+              "receipt": "com.lutoven.premiere.control-surface",
+              "version": "1.1.3",
+              "url": "https://github.com/NathanColby/lutoven-releases/releases/download/v1.1.3-windows-x86_64/LutOven-Panel-v1.1.3-windows-x86_64.ccx",
+              "sha256": "46c53dfb4ff297d68fbda1c9031d36f7f12799c7c370e56b3cbe2517af9165c8"
+            }
+          ],
+          "uninstallers": [
+            {
+              "scope": "product_only",
+              "kind": "msi_uninstall",
+              "component": "effects"
+            }
+          ],
+          "provenance": {
+            "kind": "supervised-signed-native-release",
+            "admission_sha256": "dc927ff1a4a66cc4fbc697c16c9761866aa0c6023a0879f8e784080402edacd8"
+          }
+        }
+      ]
     },
     {
       "build": "10",
@@ -831,5 +889,5 @@
       ]
     }
   ],
-  "updated": "2026-09-10T22:01:08.938Z"
+  "updated": "2026-09-11T02:19:32.174Z"
 }
