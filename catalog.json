@@ -496,12 +496,12 @@
       "version" : "1.1.2"
     },
     {
-      "build" : "5",
+      "build" : "6",
       "id" : "jumper",
       "kind" : "pkg",
       "min_host" : "Premiere Pro 26.2+ on macOS 13+",
       "name" : "Jumper",
-      "notes_url" : "https://github.com/NathanColby/jumper-releases/releases/tag/v0.2.6",
+      "notes_url" : "https://github.com/NathanColby/jumper-releases/releases/tag/v0.3.0",
       "platform_contract" : 1,
       "platforms" : [
         {
@@ -542,11 +542,11 @@
           "version" : "0.2.3"
         }
       ],
-      "published" : "2026-09-23",
+      "published" : "2026-09-24",
       "receipt" : "com.nathancolby.Jumper",
-      "sha256" : "6d6fab719fba02bc1e93ceadfe5da94b405b4f59536f1bb5f94f5d62e08622ed",
-      "url" : "https://github.com/NathanColby/jumper-releases/releases/download/v0.2.6/Jumper.pkg",
-      "version" : "0.2.6"
+      "sha256" : "8a97f5be57161306865cbd88b581059740905746791d2f5c7c5fbbedb3136c43",
+      "url" : "https://github.com/NathanColby/jumper-releases/releases/download/v0.3.0/Jumper.pkg",
+      "version" : "0.3.0"
     },
     {
       "build" : "4",
@@ -891,5 +891,5 @@
       "version" : "1.0.2"
     }
   ],
-  "updated" : "2026-09-24T12:52:01Z"
+  "updated" : "2026-09-24T13:50:52Z"
 }
