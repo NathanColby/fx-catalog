@@ -194,37 +194,39 @@
           "arch" : [
             "x86_64"
           ],
-          "build" : "9",
+          "build" : "16",
           "components" : [
             {
               "id" : "app",
               "kind" : "msi",
               "name" : "Clerk",
-              "product_code" : "{410EEC85-B31C-4C7F-8D6F-B6F14CE4ECEA}",
+              "product_code" : "{C84635C3-A81E-4A5D-AC7D-20078C4090F2}",
               "receipt" : "{E1C45827-A651-4FE3-A700-6CE12B992482}",
               "scope" : "user",
-              "sha256" : "ce642ec7691ac798c5c224ec809429bbb6c257d2a98e96beb6448e6dfef19f1d",
-              "url" : "https://github.com/NathanColby/clerk-releases/releases/download/v0.8.13-windows-x86_64/Clerk-0.8.13-windows-x86_64.msi",
-              "version" : "0.8.13"
+              "sha256" : "c641fe6a0c06917d05dae9f75297310aa89983445bf398100ab4c87e84db2685",
+              "url" : "https://github.com/NathanColby/clerk-releases/releases/download/v0.10.0-windows-x86_64/Clerk-0.10.0-windows-x86_64.msi",
+              "version" : "0.10.0"
             },
             {
               "id" : "router",
               "kind" : "ccx",
               "name" : "Clerk Router",
               "receipt" : "com.nathancolby.clerk.router",
-              "sha256" : "54f3e7717982c0bc1ac930ed53046a60c9ebbee2faeb6ff35c2d15cfb8981e4a",
-              "url" : "https://github.com/NathanColby/clerk-releases/releases/download/v0.8.13-windows-x86_64/Clerk-Router-0.8.13-windows-x86_64.ccx",
-              "version" : "0.8.13"
+              "sha256" : "25cc4a0ef6482b723ececc25b61aace908537c036459cc0b142e5e23ca9b5418",
+              "url" : "https://github.com/NathanColby/clerk-releases/releases/download/v0.10.0-windows-x86_64/Clerk-Router-0.10.0-windows-x86_64.ccx",
+              "version" : "0.10.0"
             }
           ],
           "min_host" : "Premiere Pro 26.2+ on Windows 11 24H2 x64",
-          "notes_url" : "https://github.com/NathanColby/clerk-releases/releases/tag/v0.8.13-windows-x86_64",
+          "notes_url" : "https://github.com/NathanColby/clerk-releases/releases/tag/v0.10.0-windows-x86_64",
           "os" : "windows",
           "provenance" : {
-            "admission_sha256" : "c0b35a638ffd12ef8d2ffcd22df07aeec5cdb1403965052940ebcf093320136b",
-            "kind" : "supervised-signed-native-release"
+            "candidate_sha256" : "7943e49e7846d63589df72ca764962ddb1af434a81cddcd2adbd05897b2566c5",
+            "kind" : "supervised-windows-catalog",
+            "mapping_sha256" : "ee88946127b0098d82fc92f060626fd8ca417ef0ec1bb6be41526dd4bb2e0a2a",
+            "publication_id" : "4a74b61a-53c6-4470-aaf1-96f6d1df94c7"
           },
-          "published" : "2026-09-10",
+          "published" : "2026-09-24",
           "requirements" : {
             "hosts" : [
               {
@@ -234,7 +236,7 @@
             ],
             "min_os_version" : "10.0.26100"
           },
-          "tag" : "v0.8.13-windows-x86_64",
+          "tag" : "v0.10.0-windows-x86_64",
           "target" : "windows-x86_64",
           "uninstallers" : [
             {
@@ -243,7 +245,7 @@
               "scope" : "product_only"
             }
           ],
-          "version" : "0.8.13"
+          "version" : "0.10.0"
         }
       ],
       "published" : "2026-09-24",
@@ -894,5 +896,5 @@
       "version" : "1.0.2"
     }
   ],
-  "updated" : "2026-09-24T21:10:21Z"
+  "updated" : "2026-09-24T21:10:34Z"
 }
