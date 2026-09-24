@@ -265,7 +265,7 @@
           "arch" : [
             "x86_64"
           ],
-          "build" : "2",
+          "build" : "8",
           "components" : [
             {
               "id" : "panel",
@@ -274,24 +274,26 @@
               "native_members" : [
                 {
                   "path" : "win/x64/conveyor-first-speech.uxpaddon",
-                  "sha256" : "d1cd65d9be0c5d2bca9a46101bf598a3ef373e681d80507ceb33f88d82e5298c",
-                  "size_bytes" : 311568
+                  "sha256" : "832eb5ea77d60d87802adb7152dc7a13d1befd8642156e8e21d26e8e3af56b0f",
+                  "size_bytes" : 311560
                 }
               ],
               "receipt" : "com.autostack.utilities.v01",
-              "sha256" : "965fd75152abbcde42c2185dd6813c447cc67318f58bfb2917a676fc80dcb09a",
-              "url" : "https://github.com/NathanColby/conveyor-releases/releases/download/v2.2.5-windows-x86_64/Conveyor-2.2.5-windows-x86_64.ccx",
-              "version" : "2.2.5"
+              "sha256" : "4d4bf8c1d034a211320741cd7996d6e6aaa4f94c66e7c0adb2f53a8d74c1c564",
+              "url" : "https://github.com/NathanColby/conveyor-releases/releases/download/v2.4.0-windows-x86_64/Conveyor-2.4.0-windows-x86_64.ccx",
+              "version" : "2.4.0"
             }
           ],
           "min_host" : "Premiere Pro 26.2+ on Windows 11 24H2 x64",
-          "notes_url" : "https://github.com/NathanColby/conveyor-releases/releases/tag/v2.2.5-windows-x86_64",
+          "notes_url" : "https://github.com/NathanColby/conveyor-releases/releases/tag/v2.4.0-windows-x86_64",
           "os" : "windows",
           "provenance" : {
-            "admission_sha256" : "afa71c5144c71e08913f6f0694c068a238d6c547c1d68416307921f0911ca4f5",
-            "kind" : "supervised-signed-native-release"
+            "candidate_sha256" : "1e230c719ffb90afd1eac5f472029f239162a5c8b86caafbb97e9f584c452f5f",
+            "kind" : "supervised-windows-catalog",
+            "mapping_sha256" : "dd07fec4a1d7842b138a855a9142611c0094c3522b5ba4a1cb19577a0ffef480",
+            "publication_id" : "4680a5c0-744c-4482-bee1-03f1c142ec05"
           },
-          "published" : "2026-09-10",
+          "published" : "2026-09-24",
           "requirements" : {
             "hosts" : [
               {
@@ -301,9 +303,9 @@
             ],
             "min_os_version" : "10.0.26100"
           },
-          "tag" : "v2.2.5-windows-x86_64",
+          "tag" : "v2.4.0-windows-x86_64",
           "target" : "windows-x86_64",
-          "version" : "2.2.5"
+          "version" : "2.4.0"
         }
       ],
       "published" : "2026-09-24",
@@ -892,5 +894,5 @@
       "version" : "1.0.2"
     }
   ],
-  "updated" : "2026-09-24T21:10:19Z"
+  "updated" : "2026-09-24T21:10:21Z"
 }
