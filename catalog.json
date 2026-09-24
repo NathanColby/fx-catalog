@@ -727,26 +727,28 @@
           "arch" : [
             "x86_64"
           ],
-          "build" : "4",
+          "build" : "5",
           "components" : [
             {
               "id" : "panel",
               "kind" : "ccx",
               "name" : "Palette",
               "receipt" : "com.nathancolby.palette",
-              "sha256" : "12045e2bd8783d21548d9f8304b572be4cc5583f590be5e2bca6ba54f0342bf1",
-              "url" : "https://github.com/NathanColby/palette-releases/releases/download/v1.20.5-windows-x86_64/Palette-v1.20.5-windows-x86_64.ccx",
-              "version" : "1.20.5"
+              "sha256" : "bf8baeac59f69716e123437bb1588a8e1c145a1628e696bc1980174bc5014a88",
+              "url" : "https://github.com/NathanColby/palette-releases/releases/download/v1.22.1-windows-x86_64/Palette-v1.22.1-windows-x86_64.ccx",
+              "version" : "1.22.1"
             }
           ],
           "min_host" : "Premiere Pro 26.3+ on Windows 11 24H2 x64",
-          "notes_url" : "https://github.com/NathanColby/palette-releases/releases/tag/v1.20.5-windows-x86_64",
+          "notes_url" : "https://github.com/NathanColby/palette-releases/releases/tag/v1.22.1-windows-x86_64",
           "os" : "windows",
           "provenance" : {
-            "admission_sha256" : "f2e46107bd401c0ed52663c7645ea9ae16fc7dee67f68f2046fe85c83f74d226",
-            "kind" : "supervised-owner-accepted-pure-js-ccx"
+            "candidate_sha256" : "dc68c23a217e85854807202695ae85cdf6c46b7549314adb94dbb4be0d8975ab",
+            "kind" : "supervised-windows-catalog",
+            "mapping_sha256" : "ec3715aba66af150c345eef6f7c9cf3216079da37ffa91db7ed203fe5c0d0c22",
+            "publication_id" : "ec46d45e-cc86-4059-9ff5-0daa7c2b7a0c"
           },
-          "published" : "2026-09-10",
+          "published" : "2026-09-24",
           "requirements" : {
             "hosts" : [
               {
@@ -756,9 +758,9 @@
             ],
             "min_os_version" : "10.0.26100"
           },
-          "tag" : "v1.20.5-windows-x86_64",
+          "tag" : "v1.22.1-windows-x86_64",
           "target" : "windows-x86_64",
-          "version" : "1.20.5"
+          "version" : "1.22.1"
         }
       ],
       "published" : "2026-09-24",
@@ -890,5 +892,5 @@
       "version" : "1.0.2"
     }
   ],
-  "updated" : "2026-09-24T19:47:54Z"
+  "updated" : "2026-09-24T21:10:19Z"
 }
