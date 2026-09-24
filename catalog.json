@@ -136,35 +136,34 @@
           "arch" : [
             "x86_64"
           ],
-          "build" : "2",
+          "build" : "3",
           "components" : [
             {
               "id" : "app",
               "kind" : "msi",
               "name" : "Cart",
-              "product_code" : "{F45C30AB-41A2-4514-85A1-C2FE3A9598C1}",
+              "product_code" : "{92776C46-794E-4A7F-B0E0-36F09BF6D81D}",
               "receipt" : "{17A1F27D-11E2-4A84-A7B1-644B2BBDCCF3}",
               "scope" : "machine",
-              "sha256" : "dde2e72f0ee7d92145d11e57d6a61ec2604024ec4b5a4202bdaa84e41db7c40a",
-              "url" : "https://github.com/NathanColby/cart-releases/releases/download/v0.1.1-windows-x86_64/Cart-0.1.1-windows-x86_64.msi",
-              "version" : "0.1.1"
+              "sha256" : "f32a6396189b332811e35c9fd30e879d65c76dd44d8b16a3ab8e33723675cfc2",
+              "url" : "https://github.com/NathanColby/cart-releases/releases/download/v0.1.2-windows-x86_64/Cart-0.1.2-windows-x86_64.msi",
+              "version" : "0.1.2"
             }
           ],
           "min_host" : "Windows 11 24H2 or later (x64)",
-          "notes_url" : "https://github.com/NathanColby/cart-releases/releases/tag/v0.1.1-windows-x86_64",
+          "notes_url" : "https://github.com/NathanColby/cart-releases/releases/tag/v0.1.2-windows-x86_64",
           "os" : "windows",
           "provenance" : {
-            "admission_sha256" : "e91943646a53e0a8e03950fe14e0b1da03e83e1698317e6828f06cf2077cf4c2",
-            "kind" : "supervised-signed-native-release"
+            "candidate_sha256" : "168d68a70f8d0e234f8eeac4a46d5b1f888371afd53b5411384a9c5e1bf69ee5",
+            "kind" : "supervised-windows-catalog",
+            "mapping_sha256" : "43ae90cdc2a973000f7884c82e27e64b2f4619a3ea9ff302340bad0d92520725",
+            "publication_id" : "584e4a79-862a-4187-923e-51289b6e18bb"
           },
-          "published" : "2026-09-10",
+          "published" : "2026-09-24",
           "requirements" : {
-            "hosts" : [
-
-            ],
             "min_os_version" : "10.0.26100"
           },
-          "tag" : "v0.1.1-windows-x86_64",
+          "tag" : "v0.1.2-windows-x86_64",
           "target" : "windows-x86_64",
           "uninstallers" : [
             {
@@ -173,7 +172,7 @@
               "scope" : "product_only"
             }
           ],
-          "version" : "0.1.1"
+          "version" : "0.1.2"
         }
       ],
       "published" : "2026-09-24",
@@ -891,5 +890,5 @@
       "version" : "1.0.2"
     }
   ],
-  "updated" : "2026-09-24T18:39:39Z"
+  "updated" : "2026-09-24T18:57:03Z"
 }
