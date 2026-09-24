@@ -83,26 +83,26 @@
           "arch" : [
             "x86_64"
           ],
-          "build" : "5",
+          "build" : "7",
           "components" : [
             {
               "id" : "primary",
               "kind" : "ccx",
               "name" : "Bagger",
               "receipt" : "com.nathancolby.bagger.v01",
-              "sha256" : "58a8574ebf90e45163caa47bc4f16878b247cc1b16e30036b34edd37cb72e780",
-              "url" : "https://github.com/NathanColby/bagger-releases/releases/download/v0.3.3/Bagger-v0.3.3.ccx",
-              "version" : "0.3.3"
+              "sha256" : "f7eb90c844c268322c3aa516ff2dd1a12c7b085774ed92577e8a90261a2e3953",
+              "url" : "https://github.com/NathanColby/bagger-releases/releases/download/v0.4.0/Bagger-v0.4.0.ccx",
+              "version" : "0.4.0"
             }
           ],
           "min_host" : "Premiere Pro 26.2.0+ on Windows 11 x64",
-          "notes_url" : "https://github.com/NathanColby/bagger-releases/releases/tag/v0.3.3",
+          "notes_url" : "https://github.com/NathanColby/bagger-releases/releases/tag/v0.4.0",
           "os" : "windows",
           "provenance" : {
-            "admission_sha256" : "4f06b431af77de8fb047af9d8793e6bc22e4031b581eab4d0d80f54e4cad4fd5",
+            "admission_sha256" : "1b67a5794647f0c1a4f087ba2be262410ce70df11668acae4d99fe4331b79715",
             "kind" : "existing-published-pure-js-ccx"
           },
-          "published" : "2026-09-10",
+          "published" : "2026-09-24",
           "requirements" : {
             "hosts" : [
               {
@@ -112,9 +112,9 @@
             ],
             "min_os_version" : "10.0.26100"
           },
-          "tag" : "v0.3.3",
+          "tag" : "v0.4.0",
           "target" : "windows-x86_64",
-          "version" : "0.3.3"
+          "version" : "0.4.0"
         }
       ],
       "published" : "2026-09-24",
@@ -507,26 +507,26 @@
           "arch" : [
             "x86_64"
           ],
-          "build" : "4",
+          "build" : "6",
           "components" : [
             {
               "id" : "primary",
               "kind" : "ccx",
               "name" : "Jumper",
               "receipt" : "com.nathancolby.jumper.v01",
-              "sha256" : "922c329bf4e0954727c94dfbde690ca0b8fadb6442e9493cf4d7fdbd84148338",
-              "url" : "https://github.com/NathanColby/jumper-releases/releases/download/v0.2.3/Jumper-v0.2.3.ccx",
-              "version" : "0.2.3"
+              "sha256" : "925c5f21cccd11019808c308dbff0697cb938bd5a628533f1e6cdc9c3e8b5acf",
+              "url" : "https://github.com/NathanColby/jumper-releases/releases/download/v0.3.0/Jumper-v0.3.0.ccx",
+              "version" : "0.3.0"
             }
           ],
           "min_host" : "Premiere Pro 26.2.0+ on Windows 11 x64",
-          "notes_url" : "https://github.com/NathanColby/jumper-releases/releases/tag/v0.2.3",
+          "notes_url" : "https://github.com/NathanColby/jumper-releases/releases/tag/v0.3.0",
           "os" : "windows",
           "provenance" : {
-            "admission_sha256" : "085dec513f92ada6238bba143c5746c237f9ca92ee24d016db4e3011f06b7cef",
+            "admission_sha256" : "76fdf719b3b0175e12109e994d163a31498655a7a5b94389551e7be779bf07ec",
             "kind" : "existing-published-pure-js-ccx"
           },
-          "published" : "2026-09-10",
+          "published" : "2026-09-24",
           "requirements" : {
             "hosts" : [
               {
@@ -536,9 +536,9 @@
             ],
             "min_os_version" : "10.0.26100"
           },
-          "tag" : "v0.2.3",
+          "tag" : "v0.3.0",
           "target" : "windows-x86_64",
-          "version" : "0.2.3"
+          "version" : "0.3.0"
         }
       ],
       "published" : "2026-09-24",
@@ -780,26 +780,26 @@
           "arch" : [
             "x86_64"
           ],
-          "build" : "8",
+          "build" : "10",
           "components" : [
             {
               "id" : "primary",
               "kind" : "ccx",
               "name" : "Puddle",
               "receipt" : "com.puddle.timeline.v01",
-              "sha256" : "b4ea27e1f8a117d490b812fb336a29ef45a0bff1464fd3ddce183fb2c430fb2d",
-              "url" : "https://github.com/NathanColby/puddle-releases/releases/download/v0.5.4/Puddle-v0.5.4.ccx",
-              "version" : "0.5.4"
+              "sha256" : "2a30e2e389ca65ca1fbdc0f47411149300af75cf3c5d20c325ed09b4c69f2362",
+              "url" : "https://github.com/NathanColby/puddle-releases/releases/download/v0.6.0/Puddle-v0.6.0.ccx",
+              "version" : "0.6.0"
             }
           ],
           "min_host" : "Premiere Pro 26.2.0+ on Windows 11 x64",
-          "notes_url" : "https://github.com/NathanColby/puddle-releases/releases/tag/v0.5.4",
+          "notes_url" : "https://github.com/NathanColby/puddle-releases/releases/tag/v0.6.0",
           "os" : "windows",
           "provenance" : {
-            "admission_sha256" : "2ebc5b515f2a24ba98656efe8f56b8ba774b9e1b88e1fb71f06afccbfff670a1",
+            "admission_sha256" : "9f7601f1c82d3975405f50a42dc47968a5a91c773beee659aaceff51c7a1aae3",
             "kind" : "existing-published-pure-js-ccx"
           },
-          "published" : "2026-09-10",
+          "published" : "2026-09-24",
           "requirements" : {
             "hosts" : [
               {
@@ -809,9 +809,9 @@
             ],
             "min_os_version" : "10.0.26100"
           },
-          "tag" : "v0.5.4",
+          "tag" : "v0.6.0",
           "target" : "windows-x86_64",
-          "version" : "0.5.4"
+          "version" : "0.6.0"
         }
       ],
       "published" : "2026-09-24",
@@ -890,5 +890,5 @@
       "version" : "1.0.2"
     }
   ],
-  "updated" : "2026-09-24T18:57:03Z"
+  "updated" : "2026-09-24T19:47:54Z"
 }
