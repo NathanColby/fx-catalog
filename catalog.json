@@ -552,32 +552,32 @@
       "version" : "0.3.0"
     },
     {
-      "build" : "4",
+      "build" : "5",
       "components" : [
         {
           "id" : "effects",
           "kind" : "pkg",
           "name" : "Effects",
           "receipt" : "com.colbymakes.lutoven",
-          "sha256" : "bc70661eccf721a54b5e3c8a378c6e34678699b9e7d4d97bfd357b4315b3f3da",
-          "url" : "https://github.com/NathanColby/lutoven-releases/releases/download/v1.1.3/LutOven.pkg",
-          "version" : "1.1.3"
+          "sha256" : "ae83ec458ba6ddbc505179f7d9c0a0aaa62db583870413b29c883063e9db215f",
+          "url" : "https://github.com/NathanColby/lutoven-releases/releases/download/v1.1.4/LutOven.pkg",
+          "version" : "1.1.4"
         },
         {
           "id" : "panel",
           "kind" : "ccx",
           "name" : "Panel",
           "receipt" : "com.lutoven.premiere.control-surface",
-          "sha256" : "1109ea020305fa42b5b759404cbb30f62b3ba25815aab0803d2479e8a5bd6604",
-          "url" : "https://github.com/NathanColby/lutoven-releases/releases/download/v1.1.3/LutOven-Panel-v1.1.3.ccx",
-          "version" : "1.1.3"
+          "sha256" : "3bee1b5214890f850b4ad2179acb44b02f4c2f5a34524bca9e4fa7789d3f7295",
+          "url" : "https://github.com/NathanColby/lutoven-releases/releases/download/v1.1.4/LutOven-Panel-v1.1.4.ccx",
+          "version" : "1.1.4"
         }
       ],
       "id" : "lutoven",
       "kind" : "pkg",
       "min_host" : "Premiere Pro 26.0+ on macOS (Apple Silicon)",
       "name" : "LutOven",
-      "notes_url" : "https://github.com/NathanColby/lutoven-releases/releases/tag/v1.1.3",
+      "notes_url" : "https://github.com/NathanColby/lutoven-releases/releases/tag/v1.1.4",
       "platform_contract" : 1,
       "platforms" : [
         {
@@ -636,18 +636,18 @@
           "version" : "1.1.5"
         }
       ],
-      "published" : "2026-09-08",
+      "published" : "2026-10-16",
       "receipt" : "com.colbymakes.lutoven",
-      "sha256" : "bc70661eccf721a54b5e3c8a378c6e34678699b9e7d4d97bfd357b4315b3f3da",
+      "sha256" : "ae83ec458ba6ddbc505179f7d9c0a0aaa62db583870413b29c883063e9db215f",
       "uninstallers" : [
         {
           "scope" : "product_only",
-          "sha256" : "82ad148754ae0260555fa0304420bc088d70c0ad1a87756889a2e0e001cb68de",
-          "url" : "https://github.com/NathanColby/lutoven-releases/releases/download/v1.1.3/LutOven-Uninstall.pkg"
+          "sha256" : "1c98448897feeace642cb3cb604c07def62983345a2f9f6696a22c0d555ddd27",
+          "url" : "https://github.com/NathanColby/lutoven-releases/releases/download/v1.1.4/LutOven-Uninstall.pkg"
         }
       ],
-      "url" : "https://github.com/NathanColby/lutoven-releases/releases/download/v1.1.3/LutOven.pkg",
-      "version" : "1.1.3"
+      "url" : "https://github.com/NathanColby/lutoven-releases/releases/download/v1.1.4/LutOven.pkg",
+      "version" : "1.1.4"
     },
     {
       "build" : "10",
@@ -896,5 +896,5 @@
       "version" : "1.0.2"
     }
   ],
-  "updated" : "2026-09-24T21:10:34Z"
+  "updated" : "2026-10-16T05:01:30Z"
 }
