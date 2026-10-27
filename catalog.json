@@ -774,6 +774,71 @@
       "version" : "1.22.0"
     },
     {
+      "build" : "3",
+      "id" : "precipice",
+      "kind" : "pkg",
+      "min_host" : "After Effects 2026 v26.5 or later; Apple Silicon Mac; macOS 14 or later. After Effects only.",
+      "name" : "Precipice",
+      "notes_url" : "https://github.com/NathanColby/precipice-releases/releases/tag/v1.0.0",
+      "platform_contract" : 1,
+      "platforms" : [
+        {
+          "arch" : [
+            "arm64"
+          ],
+          "build" : "3",
+          "components" : [
+            {
+              "id" : "primary",
+              "kind" : "pkg",
+              "name" : "Precipice",
+              "receipt" : "com.nathancolby.precipice",
+              "scope" : "machine",
+              "sha256" : "c54aa287ca9e139e9abc1bc48ed4786f148b4ba672a4b2e243860338df48a2e8",
+              "url" : "https://github.com/NathanColby/precipice-releases/releases/download/v1.0.0/Precipice.pkg",
+              "version" : "1.0.0"
+            }
+          ],
+          "min_host" : "After Effects 2026 v26.5 or later; Apple Silicon Mac; macOS 14 or later. After Effects only.",
+          "notes_url" : "https://github.com/NathanColby/precipice-releases/releases/tag/v1.0.0",
+          "os" : "macos",
+          "published" : "2026-10-27",
+          "requirements" : {
+            "hosts" : [
+              {
+                "id" : "after-effects",
+                "min_version" : "26.5"
+              }
+            ],
+            "min_os_version" : "14.0"
+          },
+          "tag" : "v1.0.0",
+          "target" : "macos-arm64",
+          "uninstallers" : [
+            {
+              "kind" : "pkg",
+              "scope" : "product_only",
+              "sha256" : "fd6f74206378c3caedbd2c04a71b7f603769bcc99aee2f52787ac331f74ca49f",
+              "url" : "https://github.com/NathanColby/precipice-releases/releases/download/v1.0.0/Precipice-Uninstall.pkg"
+            }
+          ],
+          "version" : "1.0.0"
+        }
+      ],
+      "published" : "2026-10-27",
+      "receipt" : "com.nathancolby.precipice",
+      "sha256" : "c54aa287ca9e139e9abc1bc48ed4786f148b4ba672a4b2e243860338df48a2e8",
+      "uninstallers" : [
+        {
+          "scope" : "product_only",
+          "sha256" : "fd6f74206378c3caedbd2c04a71b7f603769bcc99aee2f52787ac331f74ca49f",
+          "url" : "https://github.com/NathanColby/precipice-releases/releases/download/v1.0.0/Precipice-Uninstall.pkg"
+        }
+      ],
+      "url" : "https://github.com/NathanColby/precipice-releases/releases/download/v1.0.0/Precipice.pkg",
+      "version" : "1.0.0"
+    },
+    {
       "build" : "10",
       "id" : "puddle",
       "kind" : "ccx",
@@ -896,5 +961,5 @@
       "version" : "1.0.2"
     }
   ],
-  "updated" : "2026-10-16T05:01:30Z"
+  "updated" : "2026-10-27T03:33:39Z"
 }
