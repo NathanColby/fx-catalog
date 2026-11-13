@@ -255,12 +255,12 @@
       "version" : "0.10.0"
     },
     {
-      "build" : "15",
+      "build" : "16",
       "id" : "conveyor",
       "kind" : "ccx",
       "min_host" : "Premiere Pro 26.2+ on macOS",
       "name" : "Conveyor",
-      "notes_url" : "https://github.com/NathanColby/conveyor-releases/releases/tag/v2.4.0",
+      "notes_url" : "https://github.com/NathanColby/conveyor-releases/releases/tag/v2.5.0",
       "platform_contract" : 1,
       "platforms" : [
         {
@@ -310,11 +310,11 @@
           "version" : "2.4.0"
         }
       ],
-      "published" : "2026-09-24",
+      "published" : "2026-11-13",
       "receipt" : "com.autostack.utilities.v01",
-      "sha256" : "dd52705a58f98821289ac689946fdf7420521954f4afe06fcda88b67104d9a8f",
-      "url" : "https://github.com/NathanColby/conveyor-releases/releases/download/v2.4.0/Conveyor-v2.4.0.ccx",
-      "version" : "2.4.0"
+      "sha256" : "19df0f2b05a3243b05595e4f256235181b44a5ffe5479c1fdf4250f8c32659ed",
+      "url" : "https://github.com/NathanColby/conveyor-releases/releases/download/v2.5.0/Conveyor-v2.5.0.ccx",
+      "version" : "2.5.0"
     },
     {
       "build" : "8",
@@ -961,5 +961,5 @@
       "version" : "1.0.2"
     }
   ],
-  "updated" : "2026-11-13T19:57:53Z"
+  "updated" : "2026-11-13T20:00:36Z"
 }
