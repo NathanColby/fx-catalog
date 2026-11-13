@@ -839,12 +839,12 @@
       "version" : "1.0.1"
     },
     {
-      "build" : "10",
+      "build" : "11",
       "id" : "puddle",
       "kind" : "ccx",
       "min_host" : "Premiere Pro 26.2+ on macOS",
       "name" : "Puddle",
-      "notes_url" : "https://github.com/NathanColby/puddle-releases/releases/tag/v0.6.0",
+      "notes_url" : "https://github.com/NathanColby/puddle-releases/releases/tag/v0.6.1",
       "platform_contract" : 1,
       "platforms" : [
         {
@@ -885,11 +885,11 @@
           "version" : "0.6.0"
         }
       ],
-      "published" : "2026-09-24",
+      "published" : "2026-11-13",
       "receipt" : "com.puddle.timeline.v01",
-      "sha256" : "2a30e2e389ca65ca1fbdc0f47411149300af75cf3c5d20c325ed09b4c69f2362",
-      "url" : "https://github.com/NathanColby/puddle-releases/releases/download/v0.6.0/Puddle-v0.6.0.ccx",
-      "version" : "0.6.0"
+      "sha256" : "24c8f60c5659bfea482d0c3c3284c47a57b9fab75c9d393631ac608e1fdd0dd9",
+      "url" : "https://github.com/NathanColby/puddle-releases/releases/download/v0.6.1/Puddle-v0.6.1.ccx",
+      "version" : "0.6.1"
     },
     {
       "build" : "3",
@@ -961,5 +961,5 @@
       "version" : "1.0.2"
     }
   ],
-  "updated" : "2026-10-27T20:05:52Z"
+  "updated" : "2026-11-13T19:50:39Z"
 }
