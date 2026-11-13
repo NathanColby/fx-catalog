@@ -182,12 +182,12 @@
       "version" : "1.1.2"
     },
     {
-      "build" : "20",
+      "build" : "21",
       "id" : "clerk",
       "kind" : "pkg",
       "min_host" : "Premiere Pro 26.2+ on macOS 14+",
       "name" : "Clerk",
-      "notes_url" : "https://github.com/NathanColby/clerk-releases/releases/tag/v0.10.0",
+      "notes_url" : "https://github.com/NathanColby/clerk-releases/releases/tag/v0.11.0",
       "platform_contract" : 1,
       "platforms" : [
         {
@@ -248,11 +248,11 @@
           "version" : "0.10.0"
         }
       ],
-      "published" : "2026-09-24",
+      "published" : "2026-11-13",
       "receipt" : "com.nathancolby.Clerk",
-      "sha256" : "94d707915948610218fc627ddba3c76fbc03be09b93e127bbb480e0f81641d86",
-      "url" : "https://github.com/NathanColby/clerk-releases/releases/download/v0.10.0/Clerk.pkg",
-      "version" : "0.10.0"
+      "sha256" : "5a9ac7266feabc0a978967ba55ceb6677193e225dd2a33ed567bee692b02fc2c",
+      "url" : "https://github.com/NathanColby/clerk-releases/releases/download/v0.11.0/Clerk.pkg",
+      "version" : "0.11.0"
     },
     {
       "build" : "16",
@@ -961,5 +961,5 @@
       "version" : "1.0.2"
     }
   ],
-  "updated" : "2026-11-13T20:00:36Z"
+  "updated" : "2026-11-13T20:05:35Z"
 }
