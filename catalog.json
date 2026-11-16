@@ -410,12 +410,12 @@
       "version" : "1.0.5"
     },
     {
-      "build" : "18",
+      "build" : "19",
       "id" : "gammgamm-plugin",
       "kind" : "pkg",
       "min_host" : "Premiere Pro or After Effects 2026 (Apple Silicon)",
       "name" : "GammGamm Plugin",
-      "notes_url" : "https://github.com/NathanColby/gammgamm-plugin-releases/releases/tag/v0.1.9",
+      "notes_url" : "https://github.com/NathanColby/gammgamm-plugin-releases/releases/tag/v0.1.10",
       "platform_contract" : 1,
       "platforms" : [
         {
@@ -465,18 +465,18 @@
           "version" : "0.1.9"
         }
       ],
-      "published" : "2026-11-14",
+      "published" : "2026-11-16",
       "receipt" : "com.colbymakes.gammgamm.plugin",
-      "sha256" : "81a8e190cc2ce09a0f9b19c9f665e5504c4f401fca50816cea4141d8e8648b5c",
+      "sha256" : "5055b358f3877cfed19f1c69520dbef5fcf2a2da337ce92a9022a2e230566d36",
       "uninstallers" : [
         {
           "scope" : "product_only",
-          "sha256" : "113385cd77055492b9c2e0b290746ff2013a9e5ce3453fef45b48d6511f02c34",
-          "url" : "https://github.com/NathanColby/gammgamm-plugin-releases/releases/download/v0.1.9/GammGammPlugin-Uninstall.pkg"
+          "sha256" : "330e1496ff6ffcf8802bd1f1b224578359e4f232d2968c05999fcb6850e0412b",
+          "url" : "https://github.com/NathanColby/gammgamm-plugin-releases/releases/download/v0.1.10/GammGammPlugin-Uninstall.pkg"
         }
       ],
-      "url" : "https://github.com/NathanColby/gammgamm-plugin-releases/releases/download/v0.1.9/GammGammPlugin.pkg",
-      "version" : "0.1.9"
+      "url" : "https://github.com/NathanColby/gammgamm-plugin-releases/releases/download/v0.1.10/GammGammPlugin.pkg",
+      "version" : "0.1.10"
     },
     {
       "build" : "18",
@@ -961,5 +961,5 @@
       "version" : "1.0.2"
     }
   ],
-  "updated" : "2026-11-16T23:18:25Z"
+  "updated" : "2026-11-16T23:26:06Z"
 }
