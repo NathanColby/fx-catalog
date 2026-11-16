@@ -317,24 +317,24 @@
       "version" : "2.5.0"
     },
     {
-      "build" : "8",
+      "build" : "9",
       "id" : "distance-bloom",
       "kind" : "pkg",
       "min_host" : "Premiere Pro 25.6+ on macOS 14+ (Apple Silicon or Intel)",
       "name" : "Distance Bloom",
-      "notes_url" : "https://github.com/NathanColby/distance-bloom-releases/releases/tag/v0.2.8",
-      "published" : "2026-08-25",
+      "notes_url" : "https://github.com/NathanColby/distance-bloom-releases/releases/tag/v0.2.9",
+      "published" : "2026-11-16",
       "receipt" : "com.colbymakes.distancebloom",
-      "sha256" : "4c9d449ac654fe2de5b58886d3dde954f1d17f6248c7a3fb472748b3e7d0befb",
+      "sha256" : "b3e848a1780a2023bbed45bf629df9e11e43e414889e06755d0a98cfe6f3cbc8",
       "uninstallers" : [
         {
           "scope" : "product_only",
-          "sha256" : "1e73e07bd4419b51501828fb70bd58a5bbb39045abb9a55a1b1b466ae7f86ccb",
-          "url" : "https://github.com/NathanColby/distance-bloom-releases/releases/download/v0.2.8/DistanceBloom-Uninstall.pkg"
+          "sha256" : "a6eec2c1597157d52465c0de3a4856f099fa537b584e058dc71172a5d917df01",
+          "url" : "https://github.com/NathanColby/distance-bloom-releases/releases/download/v0.2.9/DistanceBloom-Uninstall.pkg"
         }
       ],
-      "url" : "https://github.com/NathanColby/distance-bloom-releases/releases/download/v0.2.8/DistanceBloom.pkg",
-      "version" : "0.2.8"
+      "url" : "https://github.com/NathanColby/distance-bloom-releases/releases/download/v0.2.9/DistanceBloom.pkg",
+      "version" : "0.2.9"
     },
     {
       "build" : "6",
@@ -961,5 +961,5 @@
       "version" : "1.0.3"
     }
   ],
-  "updated" : "2026-11-16T23:39:13Z"
+  "updated" : "2026-11-16T23:39:58Z"
 }
