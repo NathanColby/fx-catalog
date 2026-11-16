@@ -71,12 +71,12 @@
       "version" : "1.2.5"
     },
     {
-      "build" : "7",
+      "build" : "8",
       "id" : "bagger",
       "kind" : "ccx",
       "min_host" : "Premiere Pro 26.2+ on macOS",
       "name" : "Bagger",
-      "notes_url" : "https://github.com/NathanColby/bagger-releases/releases/tag/v0.4.0",
+      "notes_url" : "https://github.com/NathanColby/bagger-releases/releases/tag/v0.4.1",
       "platform_contract" : 1,
       "platforms" : [
         {
@@ -117,11 +117,11 @@
           "version" : "0.4.0"
         }
       ],
-      "published" : "2026-09-24",
+      "published" : "2026-11-16",
       "receipt" : "com.nathancolby.bagger.v01",
-      "sha256" : "f7eb90c844c268322c3aa516ff2dd1a12c7b085774ed92577e8a90261a2e3953",
-      "url" : "https://github.com/NathanColby/bagger-releases/releases/download/v0.4.0/Bagger-v0.4.0.ccx",
-      "version" : "0.4.0"
+      "sha256" : "b1f1c2598e2a26582441b51c511c8ed6a137afc330baca091d30f89a104bddf9",
+      "url" : "https://github.com/NathanColby/bagger-releases/releases/download/v0.4.1/Bagger-v0.4.1.ccx",
+      "version" : "0.4.1"
     },
     {
       "build" : "17",
@@ -961,5 +961,5 @@
       "version" : "1.0.2"
     }
   ],
-  "updated" : "2026-11-16T19:42:54Z"
+  "updated" : "2026-11-16T19:50:02Z"
 }
