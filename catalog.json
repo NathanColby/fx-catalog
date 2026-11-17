@@ -839,6 +839,71 @@
       "version" : "1.0.3"
     },
     {
+      "build" : "7",
+      "id" : "prisma",
+      "kind" : "pkg",
+      "min_host" : "Premiere Pro 2026 or later; Apple Silicon Mac; macOS 14 or later. Premiere Metal effect.",
+      "name" : "Prisma",
+      "notes_url" : "https://github.com/NathanColby/prisma-releases/releases/tag/v0.6.1",
+      "platform_contract" : 1,
+      "platforms" : [
+        {
+          "arch" : [
+            "arm64"
+          ],
+          "build" : "7",
+          "components" : [
+            {
+              "id" : "primary",
+              "kind" : "pkg",
+              "name" : "Prisma",
+              "receipt" : "com.nathancolby.Prisma",
+              "scope" : "machine",
+              "sha256" : "7257196b6e5bd9cee645011be888d4b98e3a694f9a79eb27ac5091e32af8f152",
+              "url" : "https://github.com/NathanColby/prisma-releases/releases/download/v0.6.1/Prisma.pkg",
+              "version" : "0.6.1"
+            }
+          ],
+          "min_host" : "Premiere Pro 2026 or later; Apple Silicon Mac; macOS 14 or later. Premiere Metal effect.",
+          "notes_url" : "https://github.com/NathanColby/prisma-releases/releases/tag/v0.6.1",
+          "os" : "macos",
+          "published" : "2026-11-17",
+          "requirements" : {
+            "hosts" : [
+              {
+                "id" : "premiere-pro",
+                "min_version" : "26.0"
+              }
+            ],
+            "min_os_version" : "14.0"
+          },
+          "tag" : "v0.6.1",
+          "target" : "macos-arm64",
+          "uninstallers" : [
+            {
+              "kind" : "pkg",
+              "scope" : "product_only",
+              "sha256" : "14ca9949d4cb216ff7fb532443fa27f5e9cbbe1e1affeb6695925a8ab74b57a7",
+              "url" : "https://github.com/NathanColby/prisma-releases/releases/download/v0.6.1/Prisma-Uninstall.pkg"
+            }
+          ],
+          "version" : "0.6.1"
+        }
+      ],
+      "published" : "2026-11-17",
+      "receipt" : "com.nathancolby.Prisma",
+      "sha256" : "7257196b6e5bd9cee645011be888d4b98e3a694f9a79eb27ac5091e32af8f152",
+      "uninstallers" : [
+        {
+          "scope" : "product_only",
+          "sha256" : "14ca9949d4cb216ff7fb532443fa27f5e9cbbe1e1affeb6695925a8ab74b57a7",
+          "url" : "https://github.com/NathanColby/prisma-releases/releases/download/v0.6.1/Prisma-Uninstall.pkg"
+        }
+      ],
+      "url" : "https://github.com/NathanColby/prisma-releases/releases/download/v0.6.1/Prisma.pkg",
+      "version" : "0.6.1"
+    },
+    {
       "build" : "12",
       "id" : "puddle",
       "kind" : "ccx",
@@ -961,5 +1026,5 @@
       "version" : "1.0.5"
     }
   ],
-  "updated" : "2026-11-17T22:53:40Z"
+  "updated" : "2026-11-17T22:54:37Z"
 }
