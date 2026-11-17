@@ -650,12 +650,12 @@
       "version" : "1.1.5"
     },
     {
-      "build" : "11",
+      "build" : "12",
       "id" : "obfuscate",
       "kind" : "pkg",
       "min_host" : "Premiere Pro 2026 or later, or After Effects 2024 or later (Apple Silicon)",
       "name" : "Obfuscate",
-      "notes_url" : "https://github.com/NathanColby/obfuscate-releases/releases/tag/v0.1.1",
+      "notes_url" : "https://github.com/NathanColby/obfuscate-releases/releases/tag/v0.1.2",
       "platform_contract" : 1,
       "platforms" : [
         {
@@ -705,18 +705,18 @@
           "version" : "0.1.0"
         }
       ],
-      "published" : "2026-11-16",
+      "published" : "2026-11-17",
       "receipt" : "com.nathancolby.obfuscate",
-      "sha256" : "18b332aafe568e9918ed6dd0c3df8811f001d9d59e6d94f1d32fa2b846e26550",
+      "sha256" : "079396b16cecdceb5cbfb9ce28f077178226bdc23ccdd3a87ab1c5a586f0de5c",
       "uninstallers" : [
         {
           "scope" : "product_only",
-          "sha256" : "93fa211c8dfb27bba527022c8729dca5617a66645ade481c1fe6c40c52de8287",
-          "url" : "https://github.com/NathanColby/obfuscate-releases/releases/download/v0.1.1/Obfuscate-Uninstall.pkg"
+          "sha256" : "c507eef939ffb964a2e703e08c11df3212f17d9defc6e049b31a31b9af6ae1d9",
+          "url" : "https://github.com/NathanColby/obfuscate-releases/releases/download/v0.1.2/Obfuscate-Uninstall.pkg"
         }
       ],
-      "url" : "https://github.com/NathanColby/obfuscate-releases/releases/download/v0.1.1/Obfuscate.pkg",
-      "version" : "0.1.1"
+      "url" : "https://github.com/NathanColby/obfuscate-releases/releases/download/v0.1.2/Obfuscate.pkg",
+      "version" : "0.1.2"
     },
     {
       "build" : "13",
@@ -961,5 +961,5 @@
       "version" : "1.0.4"
     }
   ],
-  "updated" : "2026-11-17T22:41:40Z"
+  "updated" : "2026-11-17T22:49:26Z"
 }
