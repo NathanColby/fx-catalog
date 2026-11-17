@@ -892,12 +892,12 @@
       "version" : "0.6.2"
     },
     {
-      "build" : "5",
+      "build" : "6",
       "id" : "rupture",
       "kind" : "pkg",
       "min_host" : "Premiere Pro 2026 or later, or After Effects 2024 or later (Apple Silicon)",
       "name" : "Rupture",
-      "notes_url" : "https://github.com/NathanColby/rupture-releases/releases/tag/v1.0.4",
+      "notes_url" : "https://github.com/NathanColby/rupture-releases/releases/tag/v1.0.5",
       "platform_contract" : 1,
       "platforms" : [
         {
@@ -949,17 +949,17 @@
       ],
       "published" : "2026-11-17",
       "receipt" : "com.nathancolby.rupture",
-      "sha256" : "3200928afc345849160ee1a63d3f67e6a8669d5c01aa5963a8c10357502e031c",
+      "sha256" : "f7ff44eb8a5fed3150b2dfebdb7c80b9c3ba40ebcd5b1ab0005bc17469a7be02",
       "uninstallers" : [
         {
           "scope" : "product_only",
-          "sha256" : "8c90e1571692490f5203bfcfca4ef3eeac9d21eacce3a460ca1f7496bf0ead9e",
-          "url" : "https://github.com/NathanColby/rupture-releases/releases/download/v1.0.4/Rupture-Uninstall.pkg"
+          "sha256" : "f5982896dfd361ff60854c0578f0cb463af4c3bf57a900e69df89216ccd5204a",
+          "url" : "https://github.com/NathanColby/rupture-releases/releases/download/v1.0.5/Rupture-Uninstall.pkg"
         }
       ],
-      "url" : "https://github.com/NathanColby/rupture-releases/releases/download/v1.0.4/Rupture.pkg",
-      "version" : "1.0.4"
+      "url" : "https://github.com/NathanColby/rupture-releases/releases/download/v1.0.5/Rupture.pkg",
+      "version" : "1.0.5"
     }
   ],
-  "updated" : "2026-11-17T22:50:27Z"
+  "updated" : "2026-11-17T22:51:30Z"
 }
