@@ -2,12 +2,12 @@
   "catalog_version" : 1,
   "products" : [
     {
-      "build" : "8",
+      "build" : "9",
       "id" : "atrophy",
       "kind" : "pkg",
       "min_host" : "Premiere Pro 2026 or later, or After Effects 2024 or later (Apple Silicon)",
       "name" : "Atrophy",
-      "notes_url" : "https://github.com/NathanColby/atrophy-releases/releases/tag/v1.2.7",
+      "notes_url" : "https://github.com/NathanColby/atrophy-releases/releases/tag/v1.2.8",
       "platform_contract" : 1,
       "platforms" : [
         {
@@ -59,16 +59,16 @@
       ],
       "published" : "2026-11-17",
       "receipt" : "com.nathancolby.atrophy",
-      "sha256" : "9cffb76516591990df948ec3dd018e2ccd67c8fec2c9c99961da08afe9a4d1f9",
+      "sha256" : "bf81419a6bbc895686ee932cdb023de4f6eb127b59d2ca54e1320765b55440a8",
       "uninstallers" : [
         {
           "scope" : "product_only",
-          "sha256" : "40addf9287f8521618b5197ee9d549b5a8ca8ec2a978e52a0a65c8cef10b755f",
-          "url" : "https://github.com/NathanColby/atrophy-releases/releases/download/v1.2.7/Atrophy-Uninstall.pkg"
+          "sha256" : "4acf3a3c694ffb3280ecc1107423521f46df6b6145a7e085017c35e0a45ff281",
+          "url" : "https://github.com/NathanColby/atrophy-releases/releases/download/v1.2.8/Atrophy-Uninstall.pkg"
         }
       ],
-      "url" : "https://github.com/NathanColby/atrophy-releases/releases/download/v1.2.7/Atrophy.pkg",
-      "version" : "1.2.7"
+      "url" : "https://github.com/NathanColby/atrophy-releases/releases/download/v1.2.8/Atrophy.pkg",
+      "version" : "1.2.8"
     },
     {
       "build" : "8",
@@ -961,5 +961,5 @@
       "version" : "1.0.4"
     }
   ],
-  "updated" : "2026-11-17T22:49:26Z"
+  "updated" : "2026-11-17T22:50:27Z"
 }
