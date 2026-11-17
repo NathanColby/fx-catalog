@@ -479,24 +479,24 @@
       "version" : "0.1.11"
     },
     {
-      "build" : "18",
+      "build" : "19",
       "id" : "gate-hit",
       "kind" : "pkg",
       "min_host" : "Premiere Pro 2026 (Apple Silicon, GPU acceleration required)",
       "name" : "Gate Hit",
-      "notes_url" : "https://github.com/NathanColby/gate-hit-releases/releases/tag/v1.1.2",
-      "published" : "2026-08-25",
+      "notes_url" : "https://github.com/NathanColby/gate-hit-releases/releases/tag/v1.1.3",
+      "published" : "2026-11-17",
       "receipt" : "com.colbymakes.gatehit",
-      "sha256" : "075544fab993882384bdbf5ae10f3afce19de2b153f927fd7301c2545c1a98cd",
+      "sha256" : "4aedb41d2689b67e73b6197a8072b49b7ba4825589b382ab253834bb661db504",
       "uninstallers" : [
         {
           "scope" : "product_only",
-          "sha256" : "140a4bc41db8e5071ab983fcd910133ba17d064fac8316d5b51f7dbf4fda796c",
-          "url" : "https://github.com/NathanColby/gate-hit-releases/releases/download/v1.1.2/GateHit-Uninstall.pkg"
+          "sha256" : "f3ccb66f12a1c21404e5caf72c39edbf406af90cb29b5be031a7c540bbd2644a",
+          "url" : "https://github.com/NathanColby/gate-hit-releases/releases/download/v1.1.3/GateHit-Uninstall.pkg"
         }
       ],
-      "url" : "https://github.com/NathanColby/gate-hit-releases/releases/download/v1.1.2/GateHit.pkg",
-      "version" : "1.1.2"
+      "url" : "https://github.com/NathanColby/gate-hit-releases/releases/download/v1.1.3/GateHit.pkg",
+      "version" : "1.1.3"
     },
     {
       "build" : "10",
@@ -961,5 +961,5 @@
       "version" : "1.0.5"
     }
   ],
-  "updated" : "2026-11-17T22:52:29Z"
+  "updated" : "2026-11-17T22:53:40Z"
 }
